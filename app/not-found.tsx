@@ -7,6 +7,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import SkipLinks from '@/components/SkipLinks'
 import AccessibleBreadcrumbs from '@/components/AccessibleBreadcrumbs'
+import SEOHead from '@/components/SEOHead'
 
 export default function NotFound() {
   const breadcrumbItems = [
@@ -40,6 +41,10 @@ export default function NotFound() {
 
   return (
     <>
+      <SEOHead 
+        title="Página no encontrada - Error 404 | Mantexia"
+        description="La página que buscas no existe. Descubre nuestros servicios de mantenimiento integral y mano de obra especializada en Valencia."
+      />
       <SkipLinks />
       <Header />
       
@@ -53,7 +58,7 @@ export default function NotFound() {
           <div className="max-w-4xl mx-auto text-center">
             {/* Error Number */}
             <div className="mb-8">
-              <h1 className="text-9xl md:text-[12rem] font-bold text-mantexia-primary/20 leading-none select-none">
+              <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[12rem] font-bold text-mantexia-primary/20 leading-none select-none">
                 404
               </h1>
             </div>
@@ -72,10 +77,10 @@ export default function NotFound() {
 
             {/* Main Message */}
             <div className="mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-mantexia-secondary mb-4">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-mantexia-secondary mb-4">
                 ¡Ups! Página no encontrada
               </h2>
-              <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
+              <p className="text-base sm:text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
                 La página que estás buscando no existe o ha sido movida. 
                 No te preocupes, te ayudamos a encontrar lo que necesitas.
               </p>

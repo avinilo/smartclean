@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
+const path = require('path')
+
 const nextConfig = {
+  // Output file tracing configuration para resolver warning de workspace root
+  outputFileTracingRoot: path.join(__dirname),
+
   // Performance optimizations para Core Web Vitals
   images: {
     remotePatterns: [
@@ -24,19 +29,20 @@ const nextConfig = {
     keepAlive: true,
   },
 
-  // Experimental features para mejor performance (CUIDADOSO)
+  // Turbopack configuration (migrado desde experimental.turbo)
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
+      },
+    },
+  },
+
+  // Experimental features para mejor performance
   experimental: {
     optimizeCss: true,
     optimizePackageImports: ['lucide-react', '@heroicons/react'],
-    // Turbo optimizations (experimental - usar con cuidado)
-    turbo: {
-      rules: {
-        '*.svg': {
-          loaders: ['@svgr/webpack'],
-          as: '*.js',
-        },
-      },
-    },
   },
 
   // Compiler optimizations

@@ -72,11 +72,11 @@ export default function GestionDocumentalPage() {
         </div>
         <div className="container-custom relative z-10 py-32 md:py-40 lg:py-48">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-bounce-in">Gestión Documental Empresas - Certificados Técnicos</h1>
-            <p className="text-2xl mb-4 animate-fade-in animate-delay-300">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-bounce-in">Gestión Documental Empresas - Certificados Técnicos</h1>
+            <p className="text-lg sm:text-xl md:text-2xl mb-4 animate-fade-in animate-delay-300">
               <strong>Segundo servicio más importante</strong> de Mantexia
             </p>
-            <p className="text-xl text-white/90 mb-6 animate-slide-up animate-delay-500">
+            <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 animate-slide-up animate-delay-500">
               Especialistas en gestión documental empresas y certificados técnicos para autónomos hasta 15 trabajadores - Especialidades: Trámites, Certificados PRL, Gestión Administrativa
             </p>
           </div>

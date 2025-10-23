@@ -79,11 +79,11 @@ export default function ManoObraPage() {
         </div>
         <div className="container-custom relative z-10 py-32 md:py-40 lg:py-48">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-bounce-in">Electricistas Valencia - Mano de Obra Especializada</h1>
-            <p className="text-2xl mb-4 animate-fade-in animate-delay-300">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-bounce-in">Electricistas Valencia - Mano de Obra Especializada</h1>
+            <p className="text-lg sm:text-xl md:text-2xl mb-4 animate-fade-in animate-delay-300">
               <strong>15+ técnicos electricistas especializados</strong> para subcontratación con instaladoras eléctricas
             </p>
-            <p className="text-xl text-white/90 mb-6 animate-slide-up animate-delay-500">
+            <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 animate-slide-up animate-delay-500">
               Valencia • Alicante • Castellón
             </p>
           </div>
@@ -126,10 +126,10 @@ export default function ManoObraPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold mb-6 text-mantexia-secondary animate-fade-in">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-mantexia-secondary animate-fade-in">
                 Electricistas Valencia: Partner Especializado en Subcontratación
               </h2>
-              <p className="text-xl text-gray-700 leading-relaxed animate-slide-up animate-delay-200">
+              <p className="text-lg sm:text-xl text-gray-700 leading-relaxed animate-slide-up animate-delay-200">
                 Mantexia cuenta con un <strong>equipo de más de 15 electricistas Valencia especializados</strong> que trabajan como extensión de su empresa. 
                 Nos especializamos en colaboración con instaladoras eléctricas, especialmente del sector solar y fotovoltaico, 
                 proporcionando técnicos especializados con cobertura en Valencia, Alicante y Castellón.

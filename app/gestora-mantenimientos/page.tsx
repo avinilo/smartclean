@@ -55,9 +55,9 @@ export default function GestoraMantenimientosPage() {
         </div>
         <div className="container-custom relative z-10 py-32 md:py-40 lg:py-48">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-bounce-in">Mantenimiento Integral - Gestión Mantenimiento Valencia</h1>
-            <p className="text-2xl mb-4 animate-fade-in animate-delay-300">Mantenimiento preventivo y correctivo para su tranquilidad</p>
-            <p className="text-xl text-white/90 animate-slide-up animate-delay-500">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-bounce-in">Mantenimiento Integral - Gestión Mantenimiento Valencia</h1>
+            <p className="text-lg sm:text-xl md:text-2xl mb-4 animate-fade-in animate-delay-300">Mantenimiento preventivo y correctivo para su tranquilidad</p>
+            <p className="text-base sm:text-lg md:text-xl text-white/90 animate-slide-up animate-delay-500">
               Evitamos averías costosas y paradas inesperadas con nuestro servicio completo de gestión mantenimiento Valencia
             </p>
           </div>

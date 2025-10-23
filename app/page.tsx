@@ -106,13 +106,13 @@ export default function Home() {
         
         <div className="container-custom relative z-10 w-full py-32 md:py-40 lg:py-48">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight animate-bounce-in">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight animate-bounce-in">
               Partner Especializado en Subcontratación
             </h1>
-            <p className="text-xl md:text-2xl mb-4 text-white/90 animate-fade-in animate-delay-300">
+            <p className="text-lg sm:text-xl md:text-2xl mb-4 text-white/90 animate-fade-in animate-delay-300">
               <strong>8 técnicos especializados</strong> para instaladoras eléctricas y gestión documental completa
             </p>
-            <p className="text-lg md:text-xl mb-8 text-white/80 animate-fade-in animate-delay-400">
+            <p className="text-base sm:text-lg md:text-xl mb-8 text-white/80 animate-fade-in animate-delay-400">
               Valencia • Alicante • Castellón
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up animate-delay-500">
@@ -131,10 +131,10 @@ export default function Home() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-mantexia-secondary">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-mantexia-secondary">
               Clientes Objetivo Principales
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
               Especializados en colaboración con instaladoras eléctricas y servicios para autónomos y pequeñas empresas
             </p>
           </div>
@@ -174,10 +174,10 @@ export default function Home() {
       >
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-mantexia-secondary animate-fade-in">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-mantexia-secondary animate-fade-in">
               Nuestros Servicios Principales
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto animate-slide-up animate-delay-200">
+            <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto animate-slide-up animate-delay-200">
               Priorizados según estrategia de negocio y captación de clientes
             </p>
           </div>
@@ -249,10 +249,10 @@ export default function Home() {
             </div>
             
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-mantexia-secondary animate-slide-left">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-mantexia-secondary animate-slide-left">
                 Partner de Confianza
               </h2>
-              <p className="text-xl text-gray-700 mb-6 leading-relaxed animate-fade-in animate-delay-300">
+              <p className="text-lg sm:text-xl text-gray-700 mb-6 leading-relaxed animate-fade-in animate-delay-300">
                 <strong>8 técnicos especializados</strong> trabajando como extensión de su equipo. Nos especializamos en subcontratación para instaladoras eléctricas y gestión documental para autónomos y pequeñas empresas.
               </p>
               
@@ -314,10 +314,10 @@ export default function Home() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4 text-mantexia-secondary animate-fade-in">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-mantexia-secondary animate-fade-in">
                 Contacta con Nosotros
               </h2>
-              <p className="text-xl text-gray-600 animate-slide-up animate-delay-200">
+              <p className="text-lg sm:text-xl text-gray-600 animate-slide-up animate-delay-200">
                 Respuesta rápida garantizada en 24-48 horas
               </p>
             </div>

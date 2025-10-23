@@ -14,17 +14,7 @@ import {
 } from '@/lib/structured-data'
 import { GA_TRACKING_ID } from '@/lib/gtag'
 import PerformanceOptimizer, { CriticalResourcesPreloader } from '@/components/PerformanceOptimizer'
-
-// Lazy loading para componentes no críticos (mejora Core Web Vitals)
-const CookieBanner = dynamic(() => import('@/components/CookieBanner'), {
-  ssr: false,
-  loading: () => null
-})
-
-const ChatBot = dynamic(() => import('@/components/ChatBot'), {
-  ssr: false,
-  loading: () => null
-})
+import { CookieBanner, ChatBot } from '@/components/ClientComponents'
 
 const inter = Inter({ 
   subsets: ['latin'], 

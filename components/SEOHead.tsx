@@ -38,6 +38,9 @@ export default function SEOHead({
   const finalTitle = title ? `${title} | ${SITE_CONFIG.name}` : SITE_CONFIG.name
   const finalDescription = description || SITE_CONFIG.description
   const finalOgImage = ogImage || '/og-image.png'
+  
+  // Usar URL base desde variables de entorno o fallback
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || SITE_CONFIG.url
 
   // Configurar robots
   const robotsContent = [
@@ -71,10 +74,11 @@ export default function SEOHead({
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:site_name" content={SITE_CONFIG.name} />
       <meta property="og:locale" content={SITE_CONFIG.locale} />
-      <meta property="og:image" content={`${SITE_CONFIG.url}${finalOgImage}`} />
+      <meta property="og:image" content={`${baseUrl}${finalOgImage}`} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta property="og:image:alt" content={finalTitle} />
+      <meta property="og:image:type" content="image/png" />
       
       {/* Twitter Cards */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -82,7 +86,8 @@ export default function SEOHead({
       <meta name="twitter:creator" content="@mantexia" />
       <meta name="twitter:title" content={finalTitle} />
       <meta name="twitter:description" content={finalDescription} />
-      <meta name="twitter:image" content={`${SITE_CONFIG.url}${finalOgImage}`} />
+      <meta name="twitter:image" content={`${baseUrl}${finalOgImage}`} />
+      <meta name="twitter:image:alt" content={finalTitle} />
       
       {/* Verificación de propietario */}
       {process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION && (

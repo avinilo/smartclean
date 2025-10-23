@@ -8,7 +8,7 @@ import { Metadata } from 'next'
 // Configuración base del sitio
 export const SITE_CONFIG = {
   name: 'Mantexia',
-  url: 'https://mantexia.com',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://mantexia.com',
   description: 'Servicios integrales de mantenimiento industrial en Valencia',
   locale: 'es_ES',
   type: 'website',
