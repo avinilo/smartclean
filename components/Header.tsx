@@ -10,18 +10,39 @@ export default function Header() {
   const [isServicesOpen, setIsServicesOpen] = useState(false)
   const [isNosotrosOpen, setIsNosotrosOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+  const [isBorderVisible, setIsBorderVisible] = useState(false)
+  const [isHeaderVisible, setIsHeaderVisible] = useState(true)
+  const [lastScrollY, setLastScrollY] = useState(0)
 
-  // Detectar scroll para cambiar el estilo del header
+  // Detectar scroll para cambiar el estilo del header y dirección de scroll
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY
-      // Cambiar el estado cuando se haga scroll más de 100px (después del hero)
+      
+      // Lógica existente para transparencia y borde
+      setIsBorderVisible(scrollPosition > 80)
       setIsScrolled(scrollPosition > 100)
+      
+      // Nueva lógica para mostrar/ocultar header basado en dirección de scroll
+      if (scrollPosition > 100) { // Solo aplicar después de 100px
+        if (scrollPosition > lastScrollY && scrollPosition > 200) {
+          // Scrolling hacia abajo - ocultar header
+          setIsHeaderVisible(false)
+        } else if (scrollPosition < lastScrollY) {
+          // Scrolling hacia arriba - mostrar header
+          setIsHeaderVisible(true)
+        }
+      } else {
+        // Siempre mostrar header en la parte superior
+        setIsHeaderVisible(true)
+      }
+      
+      setLastScrollY(scrollPosition)
     }
 
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  }, [lastScrollY])
 
   const services = [
     { name: 'Mano de Obra', href: '/mano-obra' },
@@ -36,9 +57,11 @@ export default function Header() {
   ]
 
   return (
-    <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+    <header className={`fixed w-full z-50 transition-all duration-500 ease-in-out ${
+      isHeaderVisible ? 'top-0' : '-top-20'
+    } ${
       isScrolled 
-        ? 'bg-mantexia-light shadow-lg border-b border-mantexia-primary/20' 
+        ? `bg-mantexia-light shadow-lg ${isBorderVisible ? 'border-b border-mantexia-primary/20' : ''}` 
         : 'bg-transparent'
     }`}>
       <nav className="container-custom">

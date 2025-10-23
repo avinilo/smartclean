@@ -23,6 +23,14 @@
     --scroll-offset: 100px;
     --fade-distance: 30px;
   }
+
+  /* Fix para eliminar la línea blanca en transiciones - border transparente por defecto */
+  *, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb00; /* Transparente para evitar líneas blancas */
+  }
   
   body {
     @apply bg-white text-gray-900;
