@@ -22,7 +22,7 @@ export default function BlogPost2() {
   return (
     <>
       {/* Hero Section */}
-      <section className="hero-mantexia overflow-hidden relative -mt-20 pt-20">
+      <section className="hero-smartclean overflow-hidden relative -mt-20 pt-20">
         <div className="absolute inset-0 bg-smartclean-overlay"></div>
         <div className="absolute inset-0 opacity-20">
           <Image

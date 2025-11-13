@@ -47,7 +47,7 @@ export default function LimpiezaTalleresPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="hero-mantexia overflow-hidden relative -mt-20 pt-20">
+      <section className="hero-smartclean overflow-hidden relative -mt-20 pt-20">
         <div className="absolute inset-0 smartclean-overlay"></div>
         <div className="absolute inset-0 opacity-20">
           <Image
