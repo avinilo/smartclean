@@ -16,64 +16,64 @@ export default function PreguntasFrecuentes() {
 
   const faqs = [
     {
-      question: "¿Qué servicios ofrece Mantexia?",
-      answer: "Mantexia ofrece tres servicios principales: mano de obra especializada para obras y fábricas, gestora de mantenimientos industriales, y gestión documental completa. Nuestro equipo de más de 15 profesionales certificados cubre todas las necesidades técnicas de su empresa.",
+      question: "¿Qué servicios de limpieza ofrece Smart Clean?",
+      answer: "Smart Clean ofrece limpieza de oficinas, limpieza de comunidades, limpieza industrial, limpieza post-obra, limpieza de cristales, y servicios de mantenimiento de limpieza. Nuestro equipo de más de 15 profesionales certificados garantiza resultados impecables en cada servicio.",
       category: "Servicios"
     },
     {
-      question: "¿Dónde está ubicada Mantexia y qué área cubre?",
-      answer: "Mantexia está ubicada en Av. Angelino Soler, 2, bajo 3, 46290 Alcàsser, Valencia. Damos servicio a toda la provincia de Valencia, incluyendo Valencia capital, Xàtiva, Cullera, Sagunto, Torrent y municipios cercanos.",
+      question: "¿Dónde está ubicada Smart Clean y qué área cubre?",
+      answer: "Smart Clean está ubicada en Calle Josep Meliá Pigmalión 21 C 5, Benaguasil, Valencia. Damos servicio a toda la provincia de Valencia, incluyendo Valencia capital, Xàtiva, Cullera, Sagunto, Torrent y municipios cercanos.",
       category: "Ubicación"
     },
     {
-      question: "¿Cómo puedo contactar con Mantexia?",
-      answer: "Puedes contactar con nosotros de varias formas: llamando al +34 663 423 034, enviando un email a mantexia@mantexia.com, o visitando nuestras oficinas en Alcàsser. También ofrecemos atención de emergencias las 24 horas.",
+      question: "¿Cómo puedo contactar con Smart Clean?",
+      answer: "Puedes contactar con nosotros de varias formas: llamando al +34 691 616 465, enviando un email a info@limpiezassmartclean.com, o visitando nuestras oficinas en Benaguasil. También ofrecemos atención de emergencias las 24 horas.",
       category: "Contacto"
     },
     {
-      question: "¿Cuál es el horario de atención de Mantexia?",
-      answer: "Nuestro horario regular es de lunes a viernes de 08:00 a 18:00 horas, y sábados de 09:00 a 14:00 horas. Los domingos permanecemos cerrados, pero mantenemos un servicio de emergencias disponible las 24 horas del día.",
+      question: "¿Cuál es el horario de atención de Smart Clean?",
+      answer: "Nuestro horario regular es de lunes a viernes de 08:00 a 18:00 horas, y sábados de 09:00 a 14:00 horas. Los domingos permanecemos cerrados, pero mantenemos un servicio de emergencias disponible las 24 horas del día para servicios urgentes.",
       category: "Horarios"
     },
     {
-      question: "¿Qué certificaciones tiene el equipo de Mantexia?",
-      answer: "Nuestro equipo cuenta con certificaciones en Prevención de Riesgos Laborales, habilitación para instalaciones eléctricas de baja tensión, especialización en mantenimiento industrial, y gestión de calidad ISO 9001. Todas nuestras certificaciones están vigentes y actualizadas.",
+      question: "¿Qué certificaciones tiene el equipo de Smart Clean?",
+      answer: "Nuestro equipo cuenta con certificaciones en Seguridad y Salud en Limpieza Industrial, Productos Químicos para Limpieza Profesional, Higiene y Seguridad Alimentaria, y Gestión de Calidad ISO 9001 - Limpieza. Todas nuestras certificaciones están vigentes y actualizadas.",
       category: "Certificaciones"
     },
     {
-      question: "¿Mantexia trabaja con empresas de todos los tamaños?",
-      answer: "Sí, trabajamos con empresas de todos los tamaños, desde pequeñas fábricas familiares hasta grandes complejos industriales. Adaptamos nuestros servicios a las necesidades específicas de cada cliente, garantizando siempre la máxima calidad.",
+      question: "¿Smart Clean trabaja con empresas de todos los tamaños?",
+      answer: "Sí, trabajamos con empresas de todos los tamaños, desde pequeñas oficinas hasta grandes complejos industriales. Adaptamos nuestros servicios de limpieza a las necesidades específicas de cada cliente, garantizando siempre la máxima calidad y profesionalidad.",
       category: "Clientes"
     },
     {
-      question: "¿Cuánto tiempo lleva Mantexia en el mercado?",
-      answer: "Mantexia cuenta con más de 10 años de experiencia en el sector, durante los cuales hemos completado más de 200 proyectos exitosos. Esta experiencia nos permite ofrecer soluciones probadas y eficientes.",
+      question: "¿Cuánto tiempo lleva Smart Clean en el mercado?",
+      answer: "Smart Clean cuenta con más de 10 años de experiencia en el sector de la limpieza profesional, durante los cuales hemos completado más de 500 proyectos de limpieza exitosos. Esta experiencia nos permite ofrecer servicios de limpieza probados y eficientes.",
       category: "Experiencia"
     },
     {
-      question: "¿Qué tipo de mantenimiento industrial realiza Mantexia?",
-      answer: "Realizamos mantenimiento correctivo, preventivo y predictivo. Incluye análisis de vibraciones, termografía industrial, mantenimiento de maquinaria, sistemas eléctricos, y elaboración de planes de mantenimiento personalizados.",
-      category: "Mantenimiento"
+      question: "¿Qué productos de limpieza utiliza Smart Clean?",
+      answer: "Utilizamos productos de limpieza profesionales certificados y respetuosos con el medio ambiente. Trabajamos con marcas líderes del sector y adaptamos los productos según las necesidades específicas de cada espacio y tipo de suciedad.",
+      category: "Productos"
     },
     {
-      question: "¿Mantexia ofrece servicios de emergencia?",
-      answer: "Sí, ofrecemos servicio de emergencias las 24 horas del día, los 7 días de la semana. Nuestro equipo está preparado para responder rápidamente a cualquier incidencia que pueda afectar la continuidad de su negocio.",
+      question: "¿Smart Clean ofrece servicios de emergencia?",
+      answer: "Sí, ofrecemos servicio de emergencias las 24 horas del día, los 7 días de la semana para situaciones urgentes que requieran limpieza inmediata. Nuestro equipo está preparado para responder rápidamente a cualquier incidencia.",
       category: "Emergencias"
     },
     {
-      question: "¿Cómo solicito un presupuesto para mi proyecto?",
-      answer: "Puede solicitar un presupuesto gratuito contactándonos por teléfono, email, o a través de nuestro formulario web. Realizamos una evaluación inicial sin compromiso y le proporcionamos un presupuesto detallado adaptado a sus necesidades específicas.",
+      question: "¿Cómo solicito un presupuesto para mi servicio de limpieza?",
+      answer: "Puede solicitar un presupuesto gratuito contactándonos por teléfono, email, o a través de nuestro formulario web. Realizamos una visita sin compromiso para evaluar sus necesidades específicas y le proporcionamos un presupuesto detallado.",
       category: "Presupuestos"
     },
     {
-      question: "¿Qué garantías ofrece Mantexia en sus trabajos?",
-      answer: "Ofrecemos garantía completa en todos nuestros trabajos, con seguimiento post-servicio incluido. Además, contamos con seguro de responsabilidad civil hasta 600.000€ y todas las acreditaciones oficiales necesarias.",
+      question: "¿Qué garantías ofrece Smart Clean en sus servicios?",
+      answer: "Ofrecemos garantía completa en todos nuestros servicios de limpieza, con seguimiento post-servicio incluido. Además, contamos con seguro de responsabilidad civil hasta 600.000€ y todas las acreditaciones oficiales necesarias para servicios de limpieza profesional.",
       category: "Garantías"
     },
     {
-      question: "¿Mantexia puede ayudar con la gestión documental de mi empresa?",
-      answer: "Absolutamente. Nuestro servicio de gestión documental incluye organización de documentación técnica, certificados de instalación, planes de mantenimiento, y toda la documentación legal requerida para el cumplimiento normativo.",
-      category: "Documentación"
+      question: "¿Smart Clean puede ayudar con limpiezas especiales o únicas?",
+      answer: "Absolutamente. Ofrecemos servicios de limpieza para eventos especiales, limpieza post-obra, limpieza de fin de obra, limpieza de cristales en altura, y cualquier otro tipo de limpieza especial que necesite. Adaptamos nuestros servicios a sus necesidades específicas.",
+      category: "Especiales"
     }
   ]
 
@@ -87,11 +87,11 @@ export default function PreguntasFrecuentes() {
     <>
       {/* Hero Section */}
       <section className="hero-mantexia overflow-hidden relative -mt-20 pt-20">
-        <div className="absolute inset-0 bg-mantexia-overlay"></div>
+        <div className="absolute inset-0 bg-smartclean-overlay"></div>
         <div className="absolute inset-0 opacity-20">
           <Image
             src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop&auto=format"
-            alt="Preguntas frecuentes sobre servicios de Mantexia"
+            alt="Preguntas frecuentes sobre servicios de limpieza de Smart Clean"
             fill
             className="object-cover"
             priority
@@ -122,29 +122,29 @@ export default function PreguntasFrecuentes() {
        <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-mantexia-secondary animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-smartclean-secondary animate-fade-in">
               ¿Tienes Dudas?
             </h2>
             <p className="text-xl text-gray-700 leading-relaxed animate-slide-up animate-delay-200">
-              Aquí encontrarás respuestas a las preguntas más comunes sobre nuestros servicios de mano de obra especializada, 
-              gestora de mantenimientos y gestión documental en Valencia.
+              Aquí encontrarás respuestas a las preguntas más comunes sobre nuestros servicios de limpieza profesional 
+              en Valencia: limpieza de oficinas, comunidades, industrial y servicios especiales.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <div className="text-center p-6 bg-mantexia-light rounded-xl animate-scale-in">
-              <HelpCircle className="w-12 h-12 text-mantexia-secondary mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2 text-mantexia-secondary">Respuestas Claras</h3>
+            <div className="text-center p-6 bg-smartclean-light rounded-xl animate-scale-in">
+              <HelpCircle className="w-12 h-12 text-smartclean-secondary mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2 text-smartclean-secondary">Respuestas Claras</h3>
               <p className="text-gray-600">Información detallada sobre todos nuestros servicios</p>
             </div>
-            <div className="text-center p-6 bg-mantexia-light rounded-xl animate-scale-in animate-delay-200">
-              <MessageCircle className="w-12 h-12 text-mantexia-secondary mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2 text-mantexia-secondary">Atención Personalizada</h3>
+            <div className="text-center p-6 bg-smartclean-light rounded-xl animate-scale-in animate-delay-200">
+              <MessageCircle className="w-12 h-12 text-smartclean-secondary mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2 text-smartclean-secondary">Atención Personalizada</h3>
               <p className="text-gray-600">Si no encuentras tu respuesta, contáctanos directamente</p>
             </div>
-            <div className="text-center p-6 bg-mantexia-light rounded-xl animate-scale-in animate-delay-400">
-              <Phone className="w-12 h-12 text-mantexia-secondary mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2 text-mantexia-secondary">Disponibilidad 24/7</h3>
+            <div className="text-center p-6 bg-smartclean-light rounded-xl animate-scale-in animate-delay-400">
+              <Phone className="w-12 h-12 text-smartclean-secondary mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2 text-smartclean-secondary">Disponibilidad 24/7</h3>
               <p className="text-gray-600">Servicio de emergencias disponible las 24 horas</p>
             </div>
           </div>
@@ -167,19 +167,19 @@ export default function PreguntasFrecuentes() {
                   >
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-2">
-                        <span className="text-xs font-semibold text-mantexia-primary bg-mantexia-light px-2 py-1 rounded-full">
+                        <span className="text-xs font-semibold text-smartclean-primary bg-smartclean-light px-2 py-1 rounded-full">
                           {faq.category}
                         </span>
                       </div>
-                      <h3 className="text-lg md:text-xl font-bold text-mantexia-secondary">
+                      <h3 className="text-lg md:text-xl font-bold text-smartclean-secondary">
                         {faq.question}
                       </h3>
                     </div>
                     <div className="ml-4 flex-shrink-0">
                       {openFaq === index ? (
-                        <ChevronUp className="w-6 h-6 text-mantexia-primary" />
+                        <ChevronUp className="w-6 h-6 text-smartclean-primary" />
                       ) : (
-                        <ChevronDown className="w-6 h-6 text-mantexia-primary" />
+                        <ChevronDown className="w-6 h-6 text-smartclean-primary" />
                       )}
                     </div>
                   </button>
@@ -202,7 +202,7 @@ export default function PreguntasFrecuentes() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-mantexia-secondary animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-smartclean-secondary animate-fade-in">
               ¿No Encuentras tu Respuesta?
             </h2>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed animate-slide-up animate-delay-200">
@@ -211,28 +211,28 @@ export default function PreguntasFrecuentes() {
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="p-6 bg-gray-50 rounded-xl animate-scale-in">
-                <Phone className="w-12 h-12 text-mantexia-secondary mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3 text-mantexia-secondary">Llámanos</h3>
+                <Phone className="w-12 h-12 text-smartclean-secondary mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-3 text-smartclean-secondary">Llámanos</h3>
                 <p className="text-gray-600 mb-4">Atención inmediata por teléfono</p>
-                <a href="tel:+34663423034" className="text-mantexia-primary font-semibold hover:text-mantexia-secondary transition-colors">
-                  +34 663 423 034
+                <a href="tel:+34691616465" className="text-smartclean-primary font-semibold hover:text-smartclean-secondary transition-colors">
+                  +34 691 616 465
                 </a>
               </div>
               
               <div className="p-6 bg-gray-50 rounded-xl animate-scale-in animate-delay-200">
-                <Mail className="w-12 h-12 text-mantexia-secondary mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3 text-mantexia-secondary">Escríbenos</h3>
+                <Mail className="w-12 h-12 text-smartclean-secondary mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-3 text-smartclean-secondary">Escríbenos</h3>
                 <p className="text-gray-600 mb-4">Respuesta en menos de 24h</p>
-                <a href="mailto:mantexia@mantexia.com" className="text-mantexia-primary font-semibold hover:text-mantexia-secondary transition-colors">
-                  mantexia@mantexia.com
+                <a href="mailto:info@limpiezassmartclean.com" className="text-smartclean-primary font-semibold hover:text-smartclean-secondary transition-colors">
+                  info@limpiezassmartclean.com
                 </a>
               </div>
               
               <div className="p-6 bg-gray-50 rounded-xl animate-scale-in animate-delay-400">
-                <MessageCircle className="w-12 h-12 text-mantexia-secondary mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3 text-mantexia-secondary">Chat Online</h3>
+                <MessageCircle className="w-12 h-12 text-smartclean-secondary mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-3 text-smartclean-secondary">Chat Online</h3>
                 <p className="text-gray-600 mb-4">Consulta rápida en tiempo real</p>
-                <span className="text-mantexia-primary font-semibold">Disponible 24/7</span>
+                <span className="text-smartclean-primary font-semibold">Disponible 24/7</span>
               </div>
             </div>
 

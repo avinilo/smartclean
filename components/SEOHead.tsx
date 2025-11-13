@@ -97,8 +97,8 @@ export default function SEOHead({
       
       {/* Twitter Cards */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@mantexia" />
-      <meta name="twitter:creator" content="@mantexia" />
+      <meta name="twitter:site" content="@smartclean" />
+      <meta name="twitter:creator" content="@smartclean" />
       <meta name="twitter:title" content={finalTitle} />
       <meta name="twitter:description" content={finalDescription} />
       <meta name="twitter:image" content={`${baseUrl}${finalOgImage}`} />

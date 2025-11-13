@@ -14,7 +14,7 @@ export default function Testimonials() {
       company: "Fábrica Textil Mediterránea",
       location: "Xàtiva, Valencia",
       rating: 5,
-      text: "Mantexia transformó completamente nuestro sistema de mantenimiento. La reducción en paradas no programadas ha sido espectacular, y el equipo siempre ha mostrado la máxima profesionalidad.",
+      text: "Smart Clean transformó completamente nuestro sistema de limpieza. La reducción en costes de mantenimiento ha sido espectacular, y el equipo siempre ha mostrado la máxima profesionalidad.",
       project: "Mantenimiento Industrial Integral",
       year: "2024"
     },
@@ -44,7 +44,7 @@ export default function Testimonials() {
       company: "Constructora Los Naranjos",
       location: "Alcàsser, Valencia",
       rating: 5,
-      text: "150 viviendas entregadas en plazo y sin una sola incidencia. La instalación domótica ha sido un éxito total. Mantexia es sinónimo de calidad y confianza.",
+      text: "150 viviendas entregadas en plazo y sin una sola incidencia. La limpieza profesional ha sido un éxito total. Smart Clean es sinónimo de calidad y confianza.",
       project: "Instalaciones Residenciales",
       year: "2023"
     },
@@ -54,7 +54,7 @@ export default function Testimonials() {
       company: "Grupo Industrial Valencia",
       location: "Sagunto, Valencia",
       rating: 5,
-      text: "Llevamos 3 años trabajando con Mantexia y siempre superan nuestras expectativas. Su capacidad de respuesta ante emergencias es excepcional.",
+      text: "Llevamos 3 años trabajando con Smart Clean y siempre superan nuestras expectativas. Su capacidad de respuesta ante emergencias es excepcional.",
       project: "Mantenimiento Preventivo",
       year: "2024"
     },
@@ -121,7 +121,7 @@ export default function Testimonials() {
       {/* Navigation Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 bg-white shadow-lg rounded-full flex items-center justify-center text-mantexia-primary hover:bg-mantexia-primary hover:text-white transition-all duration-300 hover-lift"
+        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 bg-white shadow-lg rounded-full flex items-center justify-center text-smartclean-primary hover:bg-smartclean-primary hover:text-white transition-all duration-300 hover-lift"
         aria-label="Testimonio anterior"
       >
         <ChevronLeft className="w-6 h-6" />
@@ -129,7 +129,7 @@ export default function Testimonials() {
 
       <button
         onClick={nextSlide}
-        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 bg-white shadow-lg rounded-full flex items-center justify-center text-mantexia-primary hover:bg-mantexia-primary hover:text-white transition-all duration-300 hover-lift"
+        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 bg-white shadow-lg rounded-full flex items-center justify-center text-smartclean-primary hover:bg-smartclean-primary hover:text-white transition-all duration-300 hover-lift"
         aria-label="Siguiente testimonio"
       >
         <ChevronRight className="w-6 h-6" />
@@ -144,18 +144,18 @@ export default function Testimonials() {
           {visibleTestimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-mantexia-primary hover-lift flex-shrink-0"
+              className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-smartclean-primary hover-lift flex-shrink-0"
               style={{ width: `calc(${100 / itemsPerView}% - ${(itemsPerView - 1) * 2}rem / ${itemsPerView})` }}
             >
               {/* Quote Icon */}
-              <div className="w-12 h-12 bg-mantexia-light rounded-full flex items-center justify-center mb-6">
-                <Quote className="w-6 h-6 text-mantexia-secondary" />
+              <div className="w-12 h-12 bg-smartclean-light rounded-full flex items-center justify-center mb-6">
+                <Quote className="w-6 h-6 text-smartclean-secondary" />
               </div>
               
               {/* Rating */}
               <div className="flex items-center gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, starIndex) => (
-                  <Star key={starIndex} className="w-4 h-4 fill-mantexia-primary text-mantexia-primary" />
+                  <Star key={starIndex} className="w-4 h-4 fill-smartclean-primary text-smartclean-primary" />
                 ))}
                 <span className="text-sm text-gray-500 ml-2">({testimonial.rating}/5)</span>
               </div>
@@ -166,8 +166,8 @@ export default function Testimonials() {
               </p>
               
               {/* Project Info */}
-              <div className="mb-4 p-3 bg-mantexia-light rounded-lg">
-                <p className="text-sm font-semibold text-mantexia-secondary mb-1">
+              <div className="mb-4 p-3 bg-smartclean-light rounded-lg">
+                <p className="text-sm font-semibold text-smartclean-secondary mb-1">
                   Proyecto: {testimonial.project}
                 </p>
                 <p className="text-xs text-gray-600">
@@ -177,9 +177,9 @@ export default function Testimonials() {
               
               {/* Author Info */}
               <div className="border-t pt-4">
-                <h4 className="font-bold text-mantexia-secondary">{testimonial.name}</h4>
+                <h4 className="font-bold text-smartclean-secondary">{testimonial.name}</h4>
                 <p className="text-sm text-gray-600">{testimonial.position}</p>
-                <p className="text-sm font-semibold text-mantexia-primary">{testimonial.company}</p>
+                <p className="text-sm font-semibold text-smartclean-primary">{testimonial.company}</p>
               </div>
             </div>
           ))}
@@ -194,8 +194,8 @@ export default function Testimonials() {
             onClick={() => goToSlide(index)}
             className={`w-3 h-3 rounded-full transition-all duration-300 ${
               currentIndex === index 
-                ? 'bg-mantexia-primary scale-125' 
-                : 'bg-gray-300 hover:bg-mantexia-primary/50'
+                ? 'bg-smartclean-primary scale-125' 
+                : 'bg-gray-300 hover:bg-smartclean-primary/50'
             }`}
             aria-label={`Ir al grupo de testimonios ${index + 1}`}
           />

@@ -1,4 +1,4 @@
-// Configuración SEO para Mantexia
+// Configuración SEO para Smart Clean
 // Keywords principales y secundarias por página
 
 export interface SEOConfig {
@@ -24,7 +24,7 @@ export interface SEOConfig {
   }
 }
 
-// Keywords principales de Mantexia
+// Keywords principales de Smart Clean
 export const MAIN_KEYWORDS = [
   'mantenimiento Valencia',
   'electricistas Valencia', 
@@ -39,208 +39,208 @@ export const MAIN_KEYWORDS = [
 export const SEO_PAGES: Record<string, SEOConfig> = {
   // Homepage
   home: {
-    title: 'Mantexia - Mantenimiento Integral y Mano de Obra Especializada en Valencia',
-    description: 'Soluciones integrales para obras y fábricas en Valencia. Mano de obra especializada, gestión documental y mantenimiento integral. Más de 15 técnicos especializados.',
+    title: 'Smart Clean - Servicios Profesionales de Limpieza en Valencia',
+    description: 'Servicios profesionales de limpieza para oficinas, comunidades, colegios e instalaciones industriales en Valencia. Limpieza integral con productos ecológicos y personal cualificado.',
     keywords: [
-      'mantenimiento Valencia',
-      'electricistas Valencia',
-      'mano de obra especializada',
-      'gestión documental empresas',
-      'mantenimiento integral',
-      'obras Valencia',
-      'fábricas Valencia',
-      'técnicos especializados Valencia',
-      'subcontratación electricistas',
-      'gestora mantenimientos'
+      'limpieza Valencia',
+      'limpieza oficinas Valencia',
+      'limpieza comunidades',
+      'limpieza colegios',
+      'limpieza industrial',
+      'servicios limpieza Valencia',
+      'limpieza ecológica',
+      'empresa limpieza Valencia',
+      'limpieza integral',
+      'limpieza profesional'
     ],
     openGraph: {
-      title: 'Mantexia - Soluciones Integrales para Obras y Fábricas en Valencia',
-      description: 'Mano de obra especializada, gestión documental y mantenimiento integral para obras y fábricas en Valencia.',
+      title: 'Smart Clean - Servicios Profesionales de Limpieza en Valencia',
+      description: 'Servicios profesionales de limpieza para oficinas, comunidades e instalaciones industriales en Valencia.',
       type: 'website',
       images: [{
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Mantexia - Soluciones integrales Valencia'
+        alt: 'Smart Clean - Servicios de limpieza Valencia'
       }]
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Mantexia - Soluciones Integrales Valencia',
-      description: 'Mano de obra especializada y mantenimiento integral para obras y fábricas.',
+      title: 'Smart Clean - Servicios Profesionales de Limpieza Valencia',
+      description: 'Servicios profesionales de limpieza para oficinas, comunidades e instalaciones industriales.',
       images: ['/og-image.png']
     }
   },
 
-  // Mano de Obra
-  manoObra: {
-    title: 'Mano de Obra Especializada Valencia - Electricistas y Técnicos | Mantexia',
-    description: 'Servicio de mano de obra especializada en Valencia. +15 técnicos especializados para electricistas y obras. Subcontratación profesional para proyectos industriales.',
+  // Limpieza de Oficinas
+  limpiezaOficinas: {
+    title: 'Limpieza de Oficinas Valencia - Servicios Profesionales | Smart Clean',
+    description: 'Servicios profesionales de limpieza de oficinas en Valencia. Limpieza diaria, mensual y servicios especiales. Productos ecológicos y personal cualificado.',
     keywords: [
-      'electricistas Valencia',
-      'mano de obra especializada',
-      'técnicos especializados Valencia',
-      'subcontratación electricistas',
-      'personal técnico Valencia',
-      'electricistas obras',
-      'técnicos industriales',
-      'mano de obra fábricas',
-      'electricistas profesionales',
-      'personal especializado obras'
+      'limpieza oficinas Valencia',
+      'limpieza empresas',
+      'servicios limpieza oficinas',
+      'limpieza profesional oficinas',
+      'limpieza ecológica oficinas',
+      'empresa limpieza oficinas',
+      'limpieza mantenimiento oficinas',
+      'servicios limpieza Valencia',
+      'limpieza despachos',
+      'limpieza co working'
     ],
     openGraph: {
-      title: 'Mano de Obra Especializada Valencia - Electricistas y Técnicos',
-      description: '+15 técnicos especializados para electricistas y obras en Valencia. Subcontratación profesional.',
+      title: 'Limpieza de Oficinas Valencia - Servicios Profesionales',
+      description: 'Servicios profesionales de limpieza de oficinas en Valencia. Productos ecológicos y personal cualificado.',
       type: 'website',
       images: [{
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Mano de obra especializada Valencia'
+        alt: 'Limpieza de oficinas Valencia'
       }]
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Mano de Obra Especializada Valencia',
-      description: '+15 técnicos especializados para electricistas y obras.',
+      title: 'Limpieza de Oficinas Valencia',
+      description: 'Servicios profesionales de limpieza con productos ecológicos.',
       images: ['/og-image.png']
     }
   },
 
-  // Gestión Documental
-  gestionDocumental: {
-    title: 'Gestión Documental Empresas Valencia - Certificados Técnicos | Mantexia',
-    description: 'Gestión documental especializada para empresas hasta 15 trabajadores. Certificados técnicos, PRL, seguros y homologaciones. Tu departamento administrativo externo.',
+  // Limpieza de Comunidades
+  limpiezaComunidades: {
+    title: 'Limpieza de Comunidades Valencia - Servicios Integrales | Smart Clean',
+    description: 'Servicios integrales de limpieza de comunidades en Valencia. Limpieza de zonas comunes, escaleras, ascensores y servicios especiales. Presupuestos personalizados.',
     keywords: [
-      'gestión documental empresas',
-      'certificados técnicos Valencia',
-      'gestión documental construcción',
-      'PRL documentación',
-      'homologaciones proveedores',
-      'seguros empresas Valencia',
-      'departamento administrativo externo',
-      'gestión documental fábricas',
-      'certificados técnicos obras',
-      'documentación empresarial'
+      'limpieza comunidades Valencia',
+      'limpieza zonas comunes',
+      'limpieza escaleras',
+      'limpieza ascensores',
+      'servicios limpieza comunidades',
+      'empresa limpieza comunidades',
+      'limpieza mantenimiento comunidades',
+      'limpieza portal',
+      'limpieza vecinos Valencia',
+      'servicios limpieza edificios'
     ],
     openGraph: {
-      title: 'Gestión Documental Empresas Valencia - Certificados Técnicos',
-      description: 'Tu departamento administrativo externo. Gestión documental para empresas hasta 15 trabajadores.',
+      title: 'Limpieza de Comunidades Valencia - Servicios Integrales',
+      description: 'Servicios integrales de limpieza de comunidades en Valencia. Presupuestos personalizados.',
       type: 'website',
       images: [{
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Gestión documental empresas Valencia'
+        alt: 'Limpieza de comunidades Valencia'
       }]
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Gestión Documental Empresas Valencia',
-      description: 'Tu departamento administrativo externo para empresas hasta 15 trabajadores.',
+      title: 'Limpieza de Comunidades Valencia',
+      description: 'Servicios integrales de limpieza con presupuestos personalizados.',
       images: ['/og-image.png']
     }
   },
 
-  // Gestora de Mantenimientos
-  gestoraMantenimientos: {
-    title: 'Gestora de Mantenimientos Valencia - Mantenimiento Integral 24/7 | Mantexia',
-    description: 'Gestión integral de mantenimientos en Valencia. Mantenimiento preventivo, correctivo y de emergencia 24/7. Soluciones completas para obras y fábricas.',
+  // Limpieza Industrial
+  limpiezaIndustrial: {
+    title: 'Limpieza Industrial Valencia - Servicios Especializados | Smart Clean',
+    description: 'Servicios especializados de limpieza industrial en Valencia. Limpieza de naves, maquinaria, suelos industriales y zonas de producción. Servicios adaptados a tu sector.',
     keywords: [
-      'mantenimiento integral Valencia',
-      'gestión mantenimiento',
-      'mantenimiento preventivo',
-      'mantenimiento correctivo',
-      'mantenimiento emergencia 24/7',
-      'gestora mantenimientos',
-      'mantenimiento fábricas',
-      'mantenimiento obras',
-      'mantenimiento industrial Valencia',
-      'servicios mantenimiento'
+      'limpieza industrial Valencia',
+      'limpieza naves industriales',
+      'limpieza maquinaria industrial',
+      'limpieza suelos industriales',
+      'servicios limpieza industrial',
+      'empresa limpieza industrial',
+      'limpieza zonas producción',
+      'limpieza fábricas Valencia',
+      'limpieza talleres industriales',
+      'servicios limpieza sector industrial'
     ],
     openGraph: {
-      title: 'Gestora de Mantenimientos Valencia - Mantenimiento Integral 24/7',
-      description: 'Gestión integral de mantenimientos. Preventivo, correctivo y emergencia 24/7 en Valencia.',
+      title: 'Limpieza Industrial Valencia - Servicios Especializados',
+      description: 'Servicios especializados de limpieza industrial en Valencia. Servicios adaptados a tu sector.',
       type: 'website',
       images: [{
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Gestora mantenimientos Valencia'
+        alt: 'Limpieza industrial Valencia'
       }]
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Gestora de Mantenimientos Valencia',
-      description: 'Mantenimiento integral 24/7. Preventivo, correctivo y emergencia.',
+      title: 'Limpieza Industrial Valencia',
+      description: 'Servicios especializados de limpieza adaptados a tu sector.',
       images: ['/og-image.png']
     }
   },
 
   // Sobre Nosotros
   sobreNosotros: {
-    title: 'Sobre Nosotros - Mantexia Valencia | Empresa de Mantenimiento y Mano de Obra',
-    description: 'Conoce Mantexia, empresa líder en mantenimiento integral y mano de obra especializada en Valencia. Experiencia en obras emblemáticas como Nou Mestalla y Roig Arena.',
+    title: 'Sobre Nosotros - Smart Clean Valencia | Empresa de Limpieza Profesional',
+    description: 'Conoce Smart Clean, empresa líder en servicios de limpieza profesional en Valencia. Especialistas en limpieza de oficinas, comunidades, colegios e instalaciones industriales.',
     keywords: [
-      'empresa mantenimiento Valencia',
-      'Mantexia Valencia',
-      'mano de obra Valencia empresa',
-      'mantenimiento integral empresa',
-      'Nou Mestalla',
-      'Roig Arena',
-      'empresa obras Valencia',
-      'servicios técnicos Valencia',
-      'empresa especializada mantenimiento'
+      'empresa limpieza Valencia',
+      'Smart Clean Valencia',
+      'limpieza profesional Valencia',
+      'servicios limpieza empresa',
+      'limpieza oficinas Valencia',
+      'limpieza comunidades Valencia',
+      'empresa limpieza colegios',
+      'servicios limpieza industriales',
+      'empresa especializada limpieza'
     ],
     openGraph: {
-      title: 'Sobre Nosotros - Mantexia Valencia',
-      description: 'Empresa líder en mantenimiento integral y mano de obra especializada en Valencia.',
+      title: 'Sobre Nosotros - Smart Clean Valencia',
+      description: 'Empresa líder en servicios de limpieza profesional en Valencia.',
       type: 'website',
       images: [{
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Mantexia empresa Valencia'
+        alt: 'Smart Clean empresa Valencia'
       }]
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Sobre Nosotros - Mantexia Valencia',
-      description: 'Empresa líder en mantenimiento integral y mano de obra especializada.',
+      title: 'Sobre Nosotros - Smart Clean Valencia',
+      description: 'Empresa líder en servicios de limpieza profesional.',
       images: ['/og-image.png']
     }
   },
 
   // Casos de Éxito
   casosExito: {
-    title: 'Casos de Éxito - Proyectos Mantexia Valencia | Nou Mestalla, Roig Arena',
-    description: 'Descubre nuestros casos de éxito: Nou Mestalla, Roig Arena, hospitales privados y hoteles Costa Valenciana. Proyectos de mantenimiento y mano de obra especializada.',
+    title: 'Casos de Éxito - Proyectos Smart Clean Valencia | Servicios de Limpieza',
+    description: 'Descubre nuestros casos de éxito: limpieza de oficinas, comunidades, colegios e instalaciones industriales. Servicios de limpieza profesional en Valencia y alrededores.',
     keywords: [
-      'casos éxito Mantexia',
-      'Nou Mestalla mantenimiento',
-      'Roig Arena proyecto',
-      'hospitales privados Valencia',
-      'hoteles Costa Valenciana',
-      'proyectos mantenimiento Valencia',
-      'obras emblemáticas Valencia',
-      'referencias Mantexia',
-      'proyectos realizados'
+      'casos éxito Smart Clean',
+      'limpieza oficinas Valencia',
+      'limpieza comunidades Valencia',
+      'limpieza colegios Valencia',
+      'servicios limpieza profesional',
+      'proyectos limpieza Valencia',
+      'clientes limpieza Valencia',
+      'referencias Smart Clean',
+      'trabajos limpieza realizados'
     ],
     openGraph: {
-      title: 'Casos de Éxito - Proyectos Mantexia Valencia',
-      description: 'Nou Mestalla, Roig Arena, hospitales y hoteles. Nuestros proyectos de éxito en Valencia.',
+      title: 'Casos de Éxito - Proyectos Smart Clean Valencia',
+      description: 'Limpieza de oficinas, comunidades, colegios e instalaciones. Nuestros proyectos de éxito en Valencia.',
       type: 'website',
       images: [{
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Casos éxito Mantexia Valencia'
+        alt: 'Casos éxito Smart Clean Valencia'
       }]
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Casos de Éxito Mantexia Valencia',
-      description: 'Nou Mestalla, Roig Arena y más proyectos de éxito.',
+      title: 'Casos de Éxito Smart Clean Valencia',
+      description: 'Limpieza de oficinas, comunidades y más proyectos de éxito.',
       images: ['/og-image.png']
     }
   }
@@ -253,26 +253,26 @@ export function getSEOConfig(page: keyof typeof SEO_PAGES): SEOConfig {
 
 // Keywords long-tail específicas por servicio
 export const LONG_TAIL_KEYWORDS = {
-  manoObra: [
-    'electricistas especializados obras Valencia',
-    'técnicos electricistas subcontratación',
-    'personal técnico especializado fábricas',
-    'mano de obra electricistas profesionales',
-    'técnicos especializados instalaciones eléctricas'
+  limpiezaOficinas: [
+    'limpieza oficinas diaria Valencia',
+    'servicios limpieza despachos Valencia',
+    'empresa limpieza oficinas profesional',
+    'limpieza ecológica empresas Valencia',
+    'limpieza mantenimiento oficinas'
   ],
-  gestionDocumental: [
-    'gestión documental pequeñas empresas Valencia',
-    'certificados técnicos construcción Valencia',
-    'departamento administrativo externo empresas',
-    'gestión PRL documentación empresas',
-    'homologaciones proveedores Valencia'
+  limpiezaComunidades: [
+    'limpieza comunidades vecinos Valencia',
+    'servicios limpieza escaleras ascensores',
+    'empresa limpieza zonas comunes Valencia',
+    'limpieza portal edificios Valencia',
+    'presupuestos limpieza comunidades'
   ],
-  gestoraMantenimientos: [
-    'mantenimiento preventivo fábricas Valencia',
-    'gestión mantenimiento integral obras',
-    'mantenimiento correctivo emergencia 24h',
-    'servicios mantenimiento industrial Valencia',
-    'gestora mantenimientos empresas Valencia'
+  limpiezaIndustrial: [
+    'limpieza industrial naves Valencia',
+    'servicios limpieza maquinaria industrial',
+    'empresa limpieza talleres industriales',
+    'limpieza suelos industriales Valencia',
+    'limpieza zonas producción fábricas'
   ]
 }
 

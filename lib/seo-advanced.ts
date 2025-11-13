@@ -1,5 +1,5 @@
 /**
- * Utilidades avanzadas de SEO para Mantexia
+ * Utilidades avanzadas de SEO para Smart Clean
  * Incluye canonical URLs, hreflang, Open Graph avanzado y Schema.org adicionales
  */
 
@@ -7,19 +7,19 @@ import { Metadata } from 'next'
 
 // Configuración base del sitio
 export const SITE_CONFIG = {
-  name: 'Mantexia',
+  name: 'Smart Clean',
   url: getBaseUrl(),
-  description: 'Servicios integrales de mantenimiento industrial en Valencia',
+  description: 'Servicios profesionales de limpieza en Valencia: oficinas, comunidades e instalaciones industriales',
   locale: 'es_ES',
   type: 'website',
-  author: 'Mantexia',
+  author: 'Smart Clean',
   keywords: [
-    'mantenimiento industrial',
-    'mano de obra especializada',
-    'gestión documental',
-    'gestora de mantenimientos',
+    'limpieza profesional',
+    'limpieza oficinas',
+    'limpieza comunidades',
+    'limpieza industrial',
     'Valencia',
-    'servicios industriales'
+    'servicios de limpieza'
   ]
 }
 
@@ -36,7 +36,7 @@ function getBaseUrl(): string {
   }
   
   // 3. Fallback: URL de producción
-  return 'https://mantexia.com'
+  return 'https://limpiezassmartclean.com'
 }
 
 // Tipos para configuración SEO
@@ -103,8 +103,8 @@ export function generateOpenGraph(config: SEOConfig): Metadata['openGraph'] {
 export function generateTwitterCard(config: SEOConfig): Metadata['twitter'] {
   return {
     card: config.twitterCard || 'summary_large_image',
-    site: '@mantexia',
-    creator: '@mantexia',
+    site: '@smartcleanvlc',
+    creator: '@smartcleanvlc',
     title: config.title,
     description: config.description,
     images: [config.ogImage || '/og-image.png']
@@ -280,28 +280,28 @@ export function generateStructuredDataScript(data: any | any[]): string {
  */
 export const PAGE_SEO_CONFIGS = {
   home: {
-    title: 'Mantexia - Mantenimiento Integral Valencia | Servicios Industriales',
-    description: 'Servicios integrales de mantenimiento industrial en Valencia. Mano de obra especializada, gestión documental y gestora de mantenimientos. ¡Contacta ahora!',
-    keywords: ['mantenimiento industrial Valencia', 'servicios industriales', 'mano de obra especializada', 'gestión documental', 'gestora mantenimientos'],
+    title: 'Smart Clean - Servicios Profesionales de Limpieza Valencia',
+    description: 'Servicios profesionales de limpieza en Valencia: oficinas, comunidades, colegios e instalaciones industriales. Productos ecológicos y personal cualificado.',
+    keywords: ['limpieza profesional Valencia', 'servicios limpieza', 'limpieza oficinas', 'limpieza comunidades', 'limpieza industrial'],
     ogType: 'website' as const,
     twitterCard: 'summary_large_image' as const
   },
-  'mano-obra': {
-    title: 'Mano de Obra Especializada Valencia | Mantexia',
-    description: 'Mano de obra especializada para mantenimiento industrial en Valencia. Técnicos cualificados y experiencia comprobada. Solicita presupuesto.',
-    keywords: ['mano de obra Valencia', 'técnicos especializados', 'mantenimiento industrial', 'personal cualificado'],
+  'limpieza-oficinas': {
+    title: 'Limpieza de Oficinas Valencia | Smart Clean Profesional',
+    description: 'Servicios profesionales de limpieza de oficinas en Valencia. Limpieza diaria, mensual y servicios especiales. Productos ecológicos y personal cualificado.',
+    keywords: ['limpieza oficinas Valencia', 'servicios limpieza oficinas', 'limpieza profesional', 'limpieza ecológica'],
     ogType: 'service' as const
   },
-  'gestion-documental': {
-    title: 'Gestión Documental Industrial | Mantexia Valencia',
-    description: 'Servicios de gestión documental para empresas industriales en Valencia. Digitalización, archivo y control de documentos técnicos.',
-    keywords: ['gestión documental Valencia', 'digitalización documentos', 'archivo técnico', 'control documental'],
+  'limpieza-comunidades': {
+    title: 'Limpieza de Comunidades Valencia | Smart Clean Integral',
+    description: 'Servicios integrales de limpieza de comunidades en Valencia. Limpieza de zonas comunes, escaleras, ascensores y servicios especiales.',
+    keywords: ['limpieza comunidades Valencia', 'limpieza zonas comunes', 'limpieza escaleras', 'servicios comunidades'],
     ogType: 'service' as const
   },
-  'gestora-mantenimientos': {
-    title: 'Gestora de Mantenimientos Valencia | Mantexia',
-    description: 'Gestora especializada en mantenimientos industriales en Valencia. Planificación, control y ejecución de mantenimientos preventivos y correctivos.',
-    keywords: ['gestora mantenimientos Valencia', 'mantenimiento preventivo', 'mantenimiento correctivo', 'planificación industrial'],
+  'limpieza-industrial': {
+    title: 'Limpieza Industrial Valencia | Smart Clean Especializada',
+    description: 'Servicios especializados de limpieza industrial en Valencia. Limpieza de naves, maquinaria, suelos industriales y zonas de producción.',
+    keywords: ['limpieza industrial Valencia', 'limpieza naves', 'limpieza maquinaria', 'servicios industriales'],
     ogType: 'service' as const
   }
 } as const

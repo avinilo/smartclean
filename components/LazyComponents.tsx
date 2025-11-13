@@ -1,4 +1,4 @@
-// Componentes optimizados con lazy loading avanzado para Mantexia
+// Componentes optimizados con lazy loading avanzado para Smart Clean
 // Mejora performance y Core Web Vitals
 
 import dynamic from 'next/dynamic'

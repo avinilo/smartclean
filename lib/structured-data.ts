@@ -1,30 +1,30 @@
-// Structured Data Schemas para SEO - Mantexia
+// Structured Data Schemas para SEO - Smart Clean
 // Implementación de Schema.org para mejorar la indexación y rich snippets
 
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Mantexia",
-  "url": "https://mantexia.com",
-  "logo": "https://mantexia.com/og-image.png",
-  "description": "Soluciones integrales para obras y fábricas en Valencia. Especialistas en mano de obra, gestión documental y gestora de mantenimientos.",
+  "name": "Limpiezas Smart Clean Valencia",
+  "url": "https://limpiezassmartclean.com",
+  "logo": "https://limpiezassmartclean.com/og-image.png",
+  "description": "Servicios profesionales de limpieza en Valencia. Especialistas en limpieza de comunidades, oficinas, garajes y servicios integrales.",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Av. Angelino Soler, 2, bajo 3",
-    "addressLocality": "Alcàsser",
+    "streetAddress": "Calle Josep Meliá Pigmalión 21 C 5",
+    "addressLocality": "Benaguasil",
     "addressRegion": "Valencia",
-    "postalCode": "46290",
+    "postalCode": "46180",
     "addressCountry": "ES"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+34663423034",
+    "telephone": "+34691616465",
     "contactType": "customer service",
-    "email": "mantexia@mantexia.com",
+    "email": "info@limpiezassmartclean.com",
     "availableLanguage": "Spanish"
   },
   "sameAs": [
-    "https://mantexia.com"
+    "https://limpiezassmartclean.com"
   ],
   "areaServed": {
     "@type": "Place",
@@ -35,62 +35,62 @@ export const organizationSchema = {
 export const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Mantexia",
-  "url": "https://mantexia.com",
+  "name": "Limpiezas Smart Clean Valencia",
+  "url": "https://limpiezassmartclean.com",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://mantexia.com/search?q={search_term_string}",
+    "target": "https://limpiezassmartclean.com/search?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
 
 export const serviceSchemas = {
-  manoObra: {
+  limpiezaOficinas: {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Mano de Obra Especializada",
-    "description": "Servicio de mano de obra técnica especializada con más de 15 técnicos cualificados para obras y fábricas. Modelo de subcontratación para instaladores eléctricos.",
+    "name": "Limpieza de Oficinas",
+    "description": "Servicio profesional de limpieza de oficinas con productos ecológicos. Limpieza diaria, semanal o mensual adaptada a las necesidades de cada empresa.",
     "provider": {
       "@type": "Organization",
-      "name": "Mantexia"
+      "name": "Smart Clean"
     },
     "areaServed": "Valencia, España",
-    "serviceType": "Mano de obra industrial",
+    "serviceType": "Limpieza de oficinas",
     "offers": {
       "@type": "Offer",
-      "description": "Técnicos especializados disponibles para proyectos industriales"
+      "description": "Limpieza profesional de oficinas con horarios flexibles"
     }
   },
-  gestora: {
+  limpiezaComunidades: {
     "@context": "https://schema.org", 
     "@type": "Service",
-    "name": "Gestora de Mantenimientos",
-    "description": "Gestión integral de mantenimientos industriales 24/7. Mantenimiento preventivo, correctivo y de emergencia para obras y fábricas.",
+    "name": "Limpieza de Comunidades",
+    "description": "Servicio integral de limpieza de comunidades. Limpieza de zonas comunes, escaleras, ascensores y espacios compartidos con productos profesionales.",
     "provider": {
       "@type": "Organization", 
-      "name": "Mantexia"
+      "name": "Smart Clean"
     },
     "areaServed": "Valencia, España",
-    "serviceType": "Mantenimiento industrial",
+    "serviceType": "Limpieza de comunidades",
     "offers": {
       "@type": "Offer",
-      "description": "Servicios de mantenimiento integral disponibles 24 horas"
+      "description": "Limpieza integral de comunidades con presupuestos personalizados"
     }
   },
-  documental: {
+  limpiezaIndustrial: {
     "@context": "https://schema.org",
     "@type": "Service", 
-    "name": "Gestión Documental",
-    "description": "Gestión documental especializada para freelancers y pequeñas empresas de hasta 15 trabajadores. Certificados técnicos, documentación PRL, seguros y homologaciones.",
+    "name": "Limpieza Industrial",
+    "description": "Servicio especializado de limpieza industrial. Limpieza de naves, maquinaria, suelos industriales y zonas de producción con equipos y productos específicos.",
     "provider": {
       "@type": "Organization",
-      "name": "Mantexia"
+      "name": "Smart Clean"
     },
     "areaServed": "Valencia, España", 
-    "serviceType": "Gestión documental",
+    "serviceType": "Limpieza industrial",
     "offers": {
       "@type": "Offer",
-      "description": "Departamento administrativo externo para pequeñas empresas"
+      "description": "Limpieza industrial adaptada a cada sector"
     }
   }
 }
@@ -98,22 +98,22 @@ export const serviceSchemas = {
 export const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Mantexia",
-  "image": "https://mantexia.com/og-image.png",
-  "telephone": "+34663423034",
-  "email": "mantexia@mantexia.com",
+  "name": "Smart Clean",
+  "image": "https://limpiezassmartclean.com/og-image.png",
+  "telephone": "+34691616465",
+  "email": "info@limpiezassmartclean.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Av. Angelino Soler, 2, bajo 3",
-    "addressLocality": "Alcàsser", 
+    "streetAddress": "Calle Josep Meliá Pigmalión 21 C 5",
+    "addressLocality": "Benaguasil", 
     "addressRegion": "Valencia",
-    "postalCode": "46290",
+    "postalCode": "46180",
     "addressCountry": "ES"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "39.3456", // Coordenadas reales de Alcàsser
-    "longitude": "-0.4302"
+    "latitude": "39.4699", // Coordenadas de Benaguasil
+    "longitude": "-0.3763"
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -131,42 +131,42 @@ export const faqSchema = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "¿Qué servicios ofrece Mantexia?",
+      "name": "¿Qué servicios ofrece Smart Clean?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mantexia ofrece tres servicios principales: Mano de Obra Especializada con más de 15 técnicos cualificados, Gestora de Mantenimientos 24/7 para mantenimiento integral, y Gestión Documental para freelancers y pequeñas empresas de hasta 15 trabajadores."
+        "text": "Smart Clean ofrece servicios profesionales de limpieza: limpieza de oficinas, limpieza de comunidades, limpieza industrial, limpieza de colegios, limpieza de cristales, y servicios especiales adaptados a cada necesidad."
       }
     },
     {
       "@type": "Question", 
-      "name": "¿Dónde está ubicada Mantexia?",
+      "name": "¿Dónde está ubicada Smart Clean?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mantexia está ubicada en Av. Angelino Soler, 2, bajo 3, 46290 Alcàsser, Valencia. Prestamos servicios en toda la Comunidad Valenciana."
+        "text": "Smart Clean está ubicada en Calle Josep Meliá Pigmalión 21 C 5, 46180 Benaguasil, Valencia. Prestamos servicios en toda la Comunidad Valenciana."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Cuál es el horario de atención de Mantexia?",
+      "name": "¿Cuál es el horario de atención de Smart Clean?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Nuestro horario de oficina es de lunes a viernes de 8:00 a 18:00. Para emergencias de mantenimiento, ofrecemos servicio 24/7."
+        "text": "Nuestro horario de oficina es de lunes a viernes de 8:00 a 18:00. Para servicios de limpieza, adaptamos nuestros horarios a las necesidades de cada cliente."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Qué tipo de empresas pueden usar el servicio de Gestión Documental?",
+      "name": "¿Qué tipo de empresas pueden usar los servicios de Smart Clean?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Nuestro servicio de Gestión Documental está diseñado para freelancers y pequeñas empresas de hasta 15 trabajadores, especialmente en los sectores de construcción y fábricas."
+        "text": "Nuestros servicios de limpieza están diseñados para todo tipo de empresas y comunidades: oficinas, comunidades de vecinos, colegios, instalaciones industriales, hoteles, restaurantes y negocios en general."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Cómo puedo contactar con Mantexia?",
+      "name": "¿Cómo puedo contactar con Smart Clean?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Puedes contactarnos por teléfono al +34 663 423 034, por email a mantexia@mantexia.com, o visitarnos en nuestra oficina en Alcàsser, Valencia."
+        "text": "Puedes contactarnos por teléfono al +34 691 616 465, por email a info@limpiezassmartclean.com, o a través de nuestro formulario web."
       }
     }
   ]

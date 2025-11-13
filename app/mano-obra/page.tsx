@@ -29,29 +29,29 @@ export const metadata = {
 
 export default function ManoObraPage() {
   const breadcrumbItems = [
-    { name: 'Mano de Obra' }
+    { name: 'Limpieza de Comunidades' }
   ]
 
   const successCases = [
     {
-      name: 'Nou Mestalla',
-      description: 'Estadio del Valencia CF',
-      type: 'Instalaciones deportivas'
+      name: 'Comunidad Residencial',
+      description: 'Edificio de 50 viviendas',
+      type: 'Comunidad urbana'
     },
     {
-      name: 'Roig Arena',
-      description: 'Pabellón deportivo',
-      type: 'Instalaciones deportivas'
+      name: 'Complejo Moderno',
+      description: 'Residencia con piscina y jardines',
+      type: 'Comunidad premium'
     },
     {
-      name: 'Hospitales',
-      description: 'Instalaciones sanitarias',
-      type: 'Sector sanitario'
+      name: 'Edificio Clásico',
+      description: 'Comunidad histórica restaurada',
+      type: 'Patrimonio residencial'
     },
     {
-      name: 'Hoteles y Residencias',
-      description: 'Sector hostelero',
-      type: 'Instalaciones turísticas'
+      name: 'Residencial Familiar',
+      description: 'Comunidad con zonas infantiles',
+      type: 'Familias con niños'
     }
   ]
 
@@ -66,12 +66,12 @@ export default function ManoObraPage() {
       />
       
       {/* Hero Section */}
-      <section className="hero-mantexia overflow-hidden relative -mt-20 pt-20">
-        <div className="absolute inset-0 mantexia-overlay"></div>
+      <section className="hero-smartclean overflow-hidden relative -mt-20 pt-20">
+        <div className="absolute inset-0 smartclean-overlay"></div>
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1920&h=1080&fit=crop&auto=format"
-            alt="Técnicos electricistas especializados trabajando en instalaciones industriales"
+            src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1920&h=1080&fit=crop&auto=format"
+            alt="Limpieza de comunidades - Smart Clean"
             fill
             className="object-cover"
             priority
@@ -79,12 +79,12 @@ export default function ManoObraPage() {
         </div>
         <div className="container-custom relative z-10 py-32 md:py-40 lg:py-48">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-bounce-in">Electricistas Valencia - Mano de Obra Especializada</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-bounce-in">Limpieza de Comunidades Valencia</h1>
             <p className="text-lg sm:text-xl md:text-2xl mb-4 animate-fade-in animate-delay-300">
-              <strong>15+ técnicos electricistas especializados</strong> para subcontratación con instaladoras eléctricas
+              <strong>Especialistas en limpieza de comunidades</strong> y edificios residenciales
             </p>
             <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 animate-slide-up animate-delay-500">
-              Valencia • Alicante • Castellón
+              Mantenimiento integral de limpieza para edificios y comunidades en Valencia
             </p>
           </div>
         </div>
@@ -101,21 +101,21 @@ export default function ManoObraPage() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="grid md:grid-cols-4 gap-6 mb-12">
-            <div className="text-center p-6 bg-mantexia-light rounded-xl hover-lift">
-              <div className="text-4xl font-bold text-mantexia-primary mb-2">15+</div>
-              <div className="text-mantexia-secondary font-semibold">Técnicos Especializados</div>
+            <div className="text-center p-6 bg-smartclean-light rounded-xl hover-lift">
+              <div className="text-4xl font-bold text-smartclean-primary mb-2">100%</div>
+              <div className="text-smartclean-secondary font-semibold">Limpieza Garantizada</div>
             </div>
-            <div className="text-center p-6 bg-mantexia-light rounded-xl hover-lift">
-              <div className="text-4xl font-bold text-mantexia-primary mb-2">3</div>
-              <div className="text-mantexia-secondary font-semibold">Provincias de Cobertura</div>
+            <div className="text-center p-6 bg-smartclean-light rounded-xl hover-lift">
+              <div className="text-4xl font-bold text-smartclean-primary mb-2">24h</div>
+              <div className="text-smartclean-secondary font-semibold">Servicio Urgente</div>
             </div>
-            <div className="text-center p-6 bg-mantexia-light rounded-xl hover-lift">
-              <div className="text-4xl font-bold text-mantexia-primary mb-2">100%</div>
-              <div className="text-mantexia-secondary font-semibold">Certificaciones PRL</div>
+            <div className="text-center p-6 bg-smartclean-light rounded-xl hover-lift">
+              <div className="text-4xl font-bold text-smartclean-primary mb-2">Eco</div>
+              <div className="text-smartclean-secondary font-semibold">Productos Verdes</div>
             </div>
-            <div className="text-center p-6 bg-mantexia-light rounded-xl hover-lift">
-              <div className="text-4xl font-bold text-mantexia-primary mb-2">24h</div>
-              <div className="text-mantexia-secondary font-semibold">Disponibilidad</div>
+            <div className="text-center p-6 bg-smartclean-light rounded-xl hover-lift">
+              <div className="text-4xl font-bold text-smartclean-primary mb-2">Flex</div>
+              <div className="text-smartclean-secondary font-semibold">Horarios Adaptables</div>
             </div>
           </div>
         </div>
@@ -126,53 +126,54 @@ export default function ManoObraPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-mantexia-secondary animate-fade-in">
-                Electricistas Valencia: Partner Especializado en Subcontratación
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-smartclean-secondary animate-fade-in">
+                Limpieza de Comunidades: Mantenimiento Integral para Edificios
               </h2>
               <p className="text-lg sm:text-xl text-gray-700 leading-relaxed animate-slide-up animate-delay-200">
-                Mantexia cuenta con un <strong>equipo de más de 15 electricistas Valencia especializados</strong> que trabajan como extensión de su empresa. 
-                Nos especializamos en colaboración con instaladoras eléctricas, especialmente del sector solar y fotovoltaico, 
-                proporcionando técnicos especializados con cobertura en Valencia, Alicante y Castellón.
+                En Limpiezas SMART CLEAN Valencia nos especializamos en brindar un mantenimiento integral de limpieza para edificios y comunidades en Valencia. 
+                Nuestra metodología de trabajo se adapta de manera precisa a las necesidades de nuestros clientes. Las comunidades de vecinos requieren un servicio 
+                de limpieza y desinfección que merece especial atención, dado el constante tránsito de residentes.
               </p>
             </div>
 
             {/* Target Clients */}
             <div className="bg-white rounded-2xl p-8 mb-12 shadow-lg">
-              <h3 className="text-3xl font-bold mb-6 text-mantexia-secondary text-center">
-                Clientes Objetivo Principales
+              <h3 className="text-3xl font-bold mb-6 text-smartclean-secondary text-center">
+                Comunidades de Vecinos Únicas
               </h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-mantexia-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-smartclean-primary rounded-lg flex items-center justify-center flex-shrink-0">
                     <Building2 className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2 text-mantexia-secondary">Instaladoras Eléctricas</h4>
+                    <h4 className="text-xl font-bold mb-2 text-smartclean-secondary">Edificios Residenciales</h4>
                     <p className="text-gray-600 mb-3">
-                      Especialmente empresas del sector solar y fotovoltaico que necesitan reforzar su equipo técnico para grandes proyectos.
+                      Comunidades de vecinos que requieren limpieza regular de zonas comunes con especial atención al tránsito constante de residentes.
                     </p>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Instaladoras solares/fotovoltaicas</li>
-                      <li>• Empresas de instalaciones eléctricas industriales</li>
-                      <li>• Contratistas de grandes obras</li>
-                      <li>• Fábricas con necesidades de instalación</li>
+                      <li>• Comunidades de vecinos clásicas</li>
+                      <li>• Complejos residenciales modernos</li>
+                      <li>• Edificios con zonas comunes amplias</li>
+                      <li>• Residencias con múltiples servicios</li>
                     </ul>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-mantexia-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-smartclean-primary rounded-lg flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2 text-mantexia-secondary">Cobertura Geográfica</h4>
+                    <h4 className="text-xl font-bold mb-2 text-smartclean-secondary">Servicios Completos</h4>
                     <p className="text-gray-600 mb-3">
-                      Servicio disponible en las tres provincias de la Comunidad Valenciana con más de 15 técnicos.
+                      Ofrecemos una amplia gama de servicios adaptados a las necesidades específicas de cada comunidad.
                     </p>
                     <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• <strong>Valencia:</strong> Capital y área metropolitana</li>
-                      <li>• <strong>Alicante:</strong> Costa y interior</li>
-                      <li>• <strong>Castellón:</strong> Zona norte y litoral</li>
+                      <li>• Portal, ascensor/es y papeleras</li>
+                      <li>• Cristales y zonas de acceso</li>
+                      <li>• Garajes y estacionamientos</li>
+                      <li>• Piscinas, jardín/zonas verdes</li>
                     </ul>
                   </div>
                 </div>
@@ -181,57 +182,57 @@ export default function ManoObraPage() {
 
             {/* Services Offered */}
             <div className="grid md:grid-cols-3 gap-8 mb-12">
-              <div className="bg-white p-6 rounded-xl border border-mantexia-primary/20 hover-lift animate-scale-in animate-delay-200">
-                <div className="w-12 h-12 bg-mantexia-primary rounded-lg flex items-center justify-center mb-4">
+              <div className="bg-white p-6 rounded-xl border border-smartclean-primary/20 hover-lift animate-scale-in animate-delay-200">
+                <div className="w-12 h-12 bg-smartclean-primary rounded-lg flex items-center justify-center mb-4">
                   <CheckCircle className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-mantexia-secondary">Electricistas Especializados</h3>
+                <h3 className="text-xl font-bold mb-2 text-smartclean-secondary">Limpieza de Zonas Comunes</h3>
                 <p className="text-gray-600 mb-4">
-                  15+ técnicos electricistas con experiencia en grandes proyectos industriales y instalaciones solares/fotovoltaicas.
+                  Mantenimiento integral de todas las áreas comunes del edificio con atención especial a los puntos de mayor tránsito.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Instalaciones eléctricas industriales</li>
-                  <li>• Sistemas solares y fotovoltaicos</li>
-                  <li>• Cuadros eléctricos y automatización</li>
+                  <li>• Portal y zonas de entrada</li>
+                  <li>• Ascensores y escaleras</li>
+                  <li>• Pasillos y zonas de tránsito</li>
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-xl border border-mantexia-primary/20 hover-lift animate-scale-in animate-delay-400">
-                <div className="w-12 h-12 bg-mantexia-primary rounded-lg flex items-center justify-center mb-4">
+              <div className="bg-white p-6 rounded-xl border border-smartclean-primary/20 hover-lift animate-scale-in animate-delay-400">
+                <div className="w-12 h-12 bg-smartclean-primary rounded-lg flex items-center justify-center mb-4">
                   <Wrench className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-mantexia-secondary">Técnicos Electromecánicos</h3>
+                <h3 className="text-xl font-bold mb-2 text-smartclean-secondary">Limpieza de Garajes</h3>
                 <p className="text-gray-600 mb-4">
-                  Profesionales especializados en mantenimiento de equipos industriales para reforzar equipos de instaladoras.
+                  Servicio especializado en limpieza de garajes y estacionamientos comunitarios con maquinaria profesional.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Mantenimiento de equipos industriales</li>
-                  <li>• Instalación de maquinaria</li>
-                  <li>• Puesta en marcha de sistemas</li>
+                  <li>• Limpieza de suelos de garaje</li>
+                  <li>• Eliminación de suciedad acumulada</li>
+                  <li>• Mantenimiento preventivo</li>
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-xl border border-mantexia-primary/20 hover-lift animate-scale-in animate-delay-600">
-                <div className="w-12 h-12 bg-mantexia-primary rounded-lg flex items-center justify-center mb-4">
+              <div className="bg-white p-6 rounded-xl border border-smartclean-primary/20 hover-lift animate-scale-in animate-delay-600">
+                <div className="w-12 h-12 bg-smartclean-primary rounded-lg flex items-center justify-center mb-4">
                   <Shield className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-mantexia-secondary">Recursos Preventivos</h3>
+                <h3 className="text-xl font-bold mb-2 text-smartclean-secondary">Servicios Especiales</h3>
                 <p className="text-gray-600 mb-4">
-                  Personal certificado en prevención de riesgos laborales para supervisión de trabajos en obra e industria.
+                  Servicios complementarios adaptados a las necesidades específicas de cada comunidad y temporada.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Certificaciones PRL vigentes</li>
-                  <li>• Supervisión de seguridad</li>
-                  <li>• Formación específica por sectores</li>
+                  <li>• Limpieza de cristales</li>
+                  <li>• Mantenimiento de jardines</li>
+                  <li>• Limpieza de zonas deportivas</li>
                 </ul>
               </div>
             </div>
 
             {/* Success Cases */}
-            <div className="bg-mantexia-secondary text-white rounded-2xl p-8 mb-12">
-              <h3 className="text-3xl font-bold mb-6 text-center">Casos de Éxito Destacados</h3>
+            <div className="bg-smartclean-secondary text-white rounded-2xl p-8 mb-12">
+              <h3 className="text-3xl font-bold mb-6 text-center">Comunidades Atendidas</h3>
               <p className="text-xl text-center mb-8 text-white/90">
-                Proyectos emblemáticos que avalan nuestra experiencia y calidad técnica
+                Ejemplos de comunidades que confían en nuestros servicios de limpieza integral
               </p>
               
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -253,55 +254,55 @@ export default function ManoObraPage() {
 
             {/* Service Details */}
             <div className="bg-white rounded-2xl p-8 mb-12 shadow-lg">
-              <h2 className="text-3xl font-bold mb-6 text-mantexia-secondary">¿Qué incluye nuestro servicio de subcontratación?</h2>
+              <h2 className="text-3xl font-bold mb-6 text-smartclean-secondary">¿Qué incluye nuestro servicio de limpieza de comunidades?</h2>
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <CheckCircle className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold mb-2 text-mantexia-secondary">Equipo de 15+ técnicos especializados</h4>
+                    <h4 className="font-semibold mb-2 text-smartclean-secondary">Frecuencias personalizadas</h4>
                     <p className="text-gray-700">
-                      Plantilla de más de 15 técnicos electricistas y electromecánicos con amplia experiencia en proyectos industriales y instalaciones eléctricas de gran envergadura.
+                      Establecemos las frecuencias necesarias para garantizar que su comunidad se mantenga en óptimas condiciones de limpieza, adaptándonos a sus necesidades específicas.
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <CheckCircle className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold mb-2 text-mantexia-secondary">Certificaciones PRL actualizadas</h4>
+                    <h4 className="font-semibold mb-2 text-smartclean-secondary">Servicios adaptados a cada comunidad</h4>
                     <p className="text-gray-700">
-                      Todo nuestro personal cuenta con las certificaciones de Prevención de Riesgos Laborales vigentes y específicas para cada sector de actividad.
+                      Cada comunidad es única, por eso adaptamos nuestros servicios para satisfacer sus requerimientos específicos, desde edificios pequeños hasta complejos residenciales.
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <CheckCircle className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold mb-2 text-mantexia-secondary">Cobertura Valencia, Alicante y Castellón</h4>
+                    <h4 className="font-semibold mb-2 text-smartclean-secondary">Limpieza de zonas comunes obligatorias</h4>
                     <p className="text-gray-700">
-                      Servicio disponible en toda la Comunidad Valenciana, adaptándonos a las necesidades geográficas de cada proyecto.
+                      Realizamos la limpieza periódica de todas las zonas comunes que conforman la comunidad: portal, ascensor/es, papeleras, cristales, garaje, piscina, jardín/zonas verdes.
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <CheckCircle className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold mb-2 text-mantexia-secondary">Especialización en instaladoras eléctricas</h4>
+                    <h4 className="font-semibold mb-2 text-smartclean-secondary">Planificación con factores clave</h4>
                     <p className="text-gray-700">
-                      Enfoque específico en colaboración con instaladoras eléctricas, especialmente del sector solar y fotovoltaico, conociendo sus necesidades específicas.
+                      Consideramos aspectos como el número de pisos, vecinos, ascensores, áreas comunes, superficie, piscina, gimnasio, garaje, jardines para crear un plan óptimo.
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <CheckCircle className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold mb-2 text-mantexia-secondary">Gestión administrativa completa</h4>
+                    <h4 className="font-semibold mb-2 text-smartclean-secondary">Flexibilidad en periodicidad</h4>
                     <p className="text-gray-700">
-                      Nos encargamos de toda la gestión administrativa, seguros y documentación necesaria, liberando a la instaladora de trámites burocráticos.
+                      La causística puede llevar desde limpiezas de una vez al mes o cada quince días, a varios días a la semana, incluso comunidades con servicio de limpieza diario.
                     </p>
                   </div>
                 </div>
@@ -309,24 +310,24 @@ export default function ManoObraPage() {
             </div>
 
             {/* Call to Action */}
-            <div className="bg-mantexia-primary text-white p-8 rounded-xl text-center hover-lift">
+            <div className="bg-smartclean-primary text-white p-8 rounded-xl text-center hover-lift">
               <div className="flex items-center justify-center gap-4 mb-4">
                 <Clock className="w-8 h-8" />
-                <h3 className="text-2xl font-bold">Disponibilidad Inmediata</h3>
+                <h3 className="text-2xl font-bold">Servicio Personalizado</h3>
               </div>
               <p className="text-lg mb-6">
-                Nuestro equipo de 15+ técnicos está listo para integrarse en su próximo proyecto. 
-                Contacte con nosotros y refuerce su equipo sin complicaciones administrativas.
+                Entendemos que cada comunidad es única, por eso adaptamos nuestros servicios para satisfacer 
+                sus requerimientos específicos. Confíe en nosotros para mantener su comunidad impecable y acogedora.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <span className="bg-white/20 px-4 py-2 rounded-full font-semibold">
-                  ✓ Sin contratación directa
+                  ✓ Servicio adaptado
                 </span>
                 <span className="bg-white/20 px-4 py-2 rounded-full font-semibold">
-                  ✓ Personal cualificado
+                  ✓ Comunidad impecable
                 </span>
                 <span className="bg-white/20 px-4 py-2 rounded-full font-semibold">
-                  ✓ Cobertura de seguros
+                  ✓ Atención personalizada
                 </span>
               </div>
             </div>
@@ -339,9 +340,9 @@ export default function ManoObraPage() {
         <div className="container-custom">
           <div className="max-w-2xl mx-auto">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold mb-4 text-mantexia-secondary">Solicite Colaboración</h2>
+              <h2 className="text-4xl font-bold mb-4 text-smartclean-secondary">Solicite Servicio de Limpieza</h2>
               <p className="text-xl text-gray-600">
-                Contacte con nosotros para reforzar su equipo técnico con nuestros 15+ especialistas
+                Contacte con nosotros para mantener su comunidad impecable y acogedora
               </p>
             </div>
 
@@ -354,3 +355,4 @@ export default function ManoObraPage() {
     </>
   )
 }
+

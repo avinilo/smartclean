@@ -138,7 +138,7 @@ export function CriticalResourcesPreloader() {
       // Using system fonts via Tailwind CSS instead
       
       // Critical images (logo, hero images)
-      '/MANTEXIA__solo_nombre_-2-removebg-preview-e1749230794480.png',
+      '/logo.webp',
       '/og-image.png',
       
       // Critical JavaScript chunks (if any)

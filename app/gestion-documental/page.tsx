@@ -30,21 +30,21 @@ export const metadata: Metadata = {
 
 export default function GestionDocumentalPage() {
   const breadcrumbItems = [
-    { name: 'Gestión Documental' }
+    { name: 'Limpieza de Oficinas' }
   ]
 
   const targetClients = [
     {
       icon: UserCheck,
-      title: 'Autónomos y Freelancers',
-      description: 'Profesionales independientes que necesitan documentación para acceder a obras y proyectos',
-      examples: ['Electricistas autónomos', 'Técnicos freelance', 'Instaladores independientes']
+      title: 'Oficinas y Despachos Profesionales',
+      description: 'Espacios de trabajo que requieren limpieza diaria y mantenimiento profesional',
+      examples: ['Despachos de abogados', 'Consultorios médicos', 'Agencias de seguros']
     },
     {
       icon: Users,
-      title: 'Pequeñas Empresas (hasta 15 trabajadores)',
-      description: 'Empresas que requieren gestión administrativa especializada sin departamento propio',
-      examples: ['Instaladoras eléctricas pequeñas', 'Empresas de mantenimiento', 'Talleres especializados']
+      title: 'Empresas de Todos los Tamaños',
+      description: 'Empresas que necesitan mantener sus oficinas limpias y presentables',
+      examples: ['Startups tecnológicas', 'Empresas de servicios', 'Consultoras']
     }
   ]
 
@@ -59,12 +59,12 @@ export default function GestionDocumentalPage() {
       />
       
       {/* Hero Section */}
-      <section className="hero-mantexia overflow-hidden relative -mt-20 pt-20">
-        <div className="absolute inset-0 mantexia-overlay"></div>
+      <section className="hero-smartclean overflow-hidden relative -mt-20 pt-20">
+        <div className="absolute inset-0 smartclean-overlay"></div>
         <div className="absolute inset-0 opacity-20">
           <Image
             src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&h=1080&fit=crop&auto=format"
-            alt="Documentación y trámites administrativos para autónomos y pequeñas empresas"
+            alt="Limpieza profesional de oficinas y despachos"
             fill
             className="object-cover"
             priority
@@ -72,12 +72,12 @@ export default function GestionDocumentalPage() {
         </div>
         <div className="container-custom relative z-10 py-32 md:py-40 lg:py-48">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-bounce-in">Gestión Documental Empresas - Certificados Técnicos</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-bounce-in">Limpieza de Oficinas Valencia</h1>
             <p className="text-lg sm:text-xl md:text-2xl mb-4 animate-fade-in animate-delay-300">
-              <strong>Segundo servicio más importante</strong> de Mantexia
+              <strong>Empresa de limpieza</strong> especializada en oficinas y despachos
             </p>
             <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 animate-slide-up animate-delay-500">
-              Especialistas en gestión documental empresas y certificados técnicos para autónomos hasta 15 trabajadores - Especialidades: Trámites, Certificados PRL, Gestión Administrativa
+              En Limpiezas Smart Clean Valencia estamos especializados en la Limpieza de oficinas y despachos. Ofrecemos nuestros servicios en Valencia y alrededores.
             </p>
           </div>
         </div>
@@ -94,21 +94,21 @@ export default function GestionDocumentalPage() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="grid md:grid-cols-4 gap-6 mb-12">
-            <div className="text-center p-6 bg-mantexia-light rounded-xl hover-lift">
-              <div className="text-4xl font-bold text-mantexia-primary mb-2">15</div>
-              <div className="text-mantexia-secondary font-semibold">Trabajadores Máximo</div>
+            <div className="text-center p-6 bg-smartclean-light rounded-xl hover-lift">
+              <div className="text-4xl font-bold text-smartclean-primary mb-2">100%</div>
+              <div className="text-smartclean-secondary font-semibold">Limpieza Garantizada</div>
             </div>
-            <div className="text-center p-6 bg-mantexia-light rounded-xl hover-lift">
-              <div className="text-4xl font-bold text-mantexia-primary mb-2">100%</div>
-              <div className="text-mantexia-secondary font-semibold">Trámites Gestionados</div>
+            <div className="text-center p-6 bg-smartclean-light rounded-xl hover-lift">
+              <div className="text-4xl font-bold text-smartclean-primary mb-2">24h</div>
+              <div className="text-smartclean-secondary font-semibold">Servicio Urgente</div>
             </div>
-            <div className="text-center p-6 bg-mantexia-light rounded-xl hover-lift">
-              <div className="text-4xl font-bold text-mantexia-primary mb-2">24h</div>
-              <div className="text-mantexia-secondary font-semibold">Respuesta Media</div>
+            <div className="text-center p-6 bg-smartclean-light rounded-xl hover-lift">
+              <div className="text-4xl font-bold text-smartclean-primary mb-2">Eco</div>
+              <div className="text-smartclean-secondary font-semibold">Productos Verdes</div>
             </div>
-            <div className="text-center p-6 bg-mantexia-light rounded-xl hover-lift">
-              <div className="text-4xl font-bold text-mantexia-primary mb-2">0</div>
-              <div className="text-mantexia-secondary font-semibold">Preocupaciones</div>
+            <div className="text-center p-6 bg-smartclean-light rounded-xl hover-lift">
+              <div className="text-4xl font-bold text-smartclean-primary mb-2">Flex</div>
+              <div className="text-smartclean-secondary font-semibold">Horarios Adaptables</div>
             </div>
           </div>
         </div>
@@ -119,33 +119,31 @@ export default function GestionDocumentalPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold mb-6 text-mantexia-secondary animate-fade-in">
-                Gestión Documental Empresas: Su Departamento Administrativo Externo
+              <h2 className="text-4xl font-bold mb-6 text-smartclean-secondary animate-fade-in">
+                Empresa Limpieza Oficinas Valencia
               </h2>
               <p className="text-xl text-gray-700 leading-relaxed animate-slide-up animate-delay-200">
-                Como <strong>segundo servicio más importante</strong> de Mantexia, nos especializamos en gestión documental empresas 
-                para <strong>autónomos y empresas hasta 15 trabajadores</strong>. Somos su departamento administrativo externo, 
-                gestionando certificados técnicos y liberándole de trámites burocráticos para que se centre en hacer crecer su negocio.
+                En Limpiezas Smart Clean Valencia, sabemos que un espacio de trabajo limpio e higiénico es fundamental para la productividad y el bienestar. Por eso, ofrecemos un servicio integral de limpieza de oficinas en Valencia, adaptado a las necesidades de cada empresa.
               </p>
             </div>
 
             {/* Target Clients Section */}
             <div className="bg-white rounded-2xl p-8 mb-12 shadow-lg">
-              <h3 className="text-3xl font-bold mb-6 text-mantexia-secondary text-center">
-                Nuestros Clientes Objetivo
+              <h3 className="text-3xl font-bold mb-6 text-smartclean-secondary text-center">
+                Nuestros Clientes de Oficinas
               </h3>
               <p className="text-lg text-gray-600 text-center mb-8">
-                Nos especializamos en autónomos y pequeñas empresas que necesitan gestión administrativa profesional
+                Nos especializamos en oficinas y despachos que necesitan limpieza profesional regular
               </p>
               
               <div className="grid md:grid-cols-2 gap-8">
                 {targetClients.map((client, index) => (
                   <div key={index} className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-mantexia-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-smartclean-primary rounded-lg flex items-center justify-center flex-shrink-0">
                       <client.icon className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-bold mb-2 text-mantexia-secondary">{client.title}</h4>
+                      <h4 className="text-xl font-bold mb-2 text-smartclean-secondary">{client.title}</h4>
                       <p className="text-gray-600 mb-3">{client.description}</p>
                       <ul className="text-sm text-gray-600 space-y-1">
                         {client.examples.map((example, idx) => (
@@ -157,44 +155,41 @@ export default function GestionDocumentalPage() {
                 ))}
               </div>
               
-              <div className="mt-8 p-6 bg-mantexia-light rounded-xl">
-                <h4 className="text-lg font-bold mb-3 text-mantexia-secondary text-center">
-                  ¿Por qué limitamos a 15 trabajadores?
+              <div className="mt-8 p-6 bg-smartclean-light rounded-xl">
+                <h4 className="text-lg font-bold mb-3 text-smartclean-secondary text-center">
+                  ¿Por qué elegir limpieza profesional?
                 </h4>
                 <p className="text-gray-700 text-center">
-                  Nos enfocamos en autónomos y pequeñas empresas porque entendemos sus necesidades específicas. 
-                  Las empresas más grandes suelen tener departamentos administrativos propios, mientras que 
-                  nuestros clientes necesitan un servicio personalizado y ágil.
+                  La limpieza profesional de oficinas no es solo estética, es fundamental para la salud, 
+                  productividad y bienestar de los empleados. Un ambiente limpio reduce enfermedades, 
+                  mejora la concentración y crea una imagen profesional para sus clientes.
                 </p>
               </div>
             </div>
 
             {/* Problem Statement */}
-            <div className="bg-red-50 border-l-4 border-mantexia-primary p-8 mb-12 rounded-r-xl">
+              <div className="bg-red-50 border-l-4 border-smartclean-primary p-8 mb-12 rounded-r-xl">
               <div className="flex items-start gap-4">
-                <FileText className="w-8 h-8 text-mantexia-primary flex-shrink-0 mt-1" />
+                <FileText className="w-8 h-8 text-smartclean-primary flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-2xl font-bold mb-4 text-mantexia-secondary">
-                    El Problema de la Documentación para Autónomos y Pequeñas Empresas
+                  <h3 className="text-2xl font-bold mb-4 text-smartclean-secondary">
+                La importancia de mantener una oficina limpia
                   </h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-semibold mb-2 text-mantexia-secondary">Consecuencias de la mala gestión:</h4>
+                      <h4 className="font-semibold mb-2 text-smartclean-secondary">Beneficios de una oficina limpia:</h4>
                       <ul className="space-y-2 text-gray-700">
-                        <li>• <strong>Pérdida de contratos</strong> por documentación incompleta</li>
-                        <li>• <strong>Sanciones económicas</strong> por incumplimientos</li>
-                        <li>• <strong>Paralización de actividad</strong> por certificados caducados</li>
-                        <li>• <strong>Tiempo perdido</strong> en trámites burocráticos</li>
+                        <li>• <strong>Mejora la productividad</strong> de los empleados</li>
+                        <li>• <strong>Proyecta imagen profesional</strong> ante clientes</li>
+                        <li>• <strong>Reduce enfermedades</strong> y absentismo</li>
+                        <li>• <strong>Crea ambiente agradable</strong> para trabajar</li>
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2 text-mantexia-secondary">Dificultades específicas:</h4>
-                      <ul className="space-y-2 text-gray-700">
-                        <li>• Desconocimiento de normativas cambiantes</li>
-                        <li>• Falta de tiempo para gestionar trámites</li>
-                        <li>• Complejidad de procedimientos administrativos</li>
-                        <li>• Costes de mantener personal administrativo</li>
-                      </ul>
+                      <h4 className="font-semibold mb-2 text-smartclean-secondary">Nuestro objetivo:</h4>
+                      <p className="text-gray-700">
+                        Nuestro objetivo ofreciendo el servicio de limpieza de oficinas es conseguir crear un entorno limpio y saludable que proyecte y potencie la profesionalidad y cuidado del negocio.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -203,86 +198,56 @@ export default function GestionDocumentalPage() {
 
             {/* Services Offered */}
             <div className="bg-white rounded-2xl p-8 mb-12 shadow-lg">
-              <h3 className="text-3xl font-bold mb-6 text-mantexia-secondary text-center">
-                Servicios de Gestión Documental Especializada
+              <h3 className="text-3xl font-bold mb-6 text-smartclean-secondary text-center">
+                ¿Qué incluye nuestro servicio de limpieza de oficinas?
               </h3>
               
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <CheckCircle className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold mb-2 text-mantexia-secondary">Certificados y Licencias Técnicas</h4>
-                    <p className="text-gray-600 mb-2">Tramitación completa de certificados eléctricos, gas, climatización y licencias municipales</p>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Certificados de instalaciones eléctricas</li>
-                      <li>• Licencias de actividad y apertura</li>
-                      <li>• Permisos de obra y construcción</li>
-                    </ul>
+                    <h4 className="font-semibold mb-2 text-smartclean-secondary">Limpieza periódica</h4>
+                    <p className="text-gray-600 mb-2">Diaria, cada dos días, semanal… Dependiendo de las necesidades de cada cliente</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <CheckCircle className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold mb-2 text-mantexia-secondary">Documentación PRL Completa</h4>
-                    <p className="text-gray-600 mb-2">Gestión integral de Prevención de Riesgos Laborales para autónomos y pequeñas empresas</p>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Planes de seguridad y salud</li>
-                      <li>• Evaluaciones de riesgos</li>
-                      <li>• Formación PRL obligatoria</li>
-                    </ul>
+                    <h4 className="font-semibold mb-2 text-smartclean-secondary">Limpieza de todas las estancias</h4>
+                    <p className="text-gray-600 mb-2">Limpieza, mantenimiento y desinfección de las superficies, eliminación de polvo</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <CheckCircle className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold mb-2 text-mantexia-secondary">Seguros y Garantías</h4>
-                    <p className="text-gray-600 mb-2">Gestión de pólizas de seguro y garantías necesarias para el desarrollo de la actividad</p>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Seguros de responsabilidad civil</li>
-                      <li>• Pólizas de accidentes laborales</li>
-                      <li>• Avales y garantías técnicas</li>
-                    </ul>
+                    <h4 className="font-semibold mb-2 text-smartclean-secondary">Fregado de suelos</h4>
+                    <p className="text-gray-600 mb-2">Mantenimiento completo de todo tipo de suelos</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <CheckCircle className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold mb-2 text-mantexia-secondary">Homologaciones de Proveedores</h4>
-                    <p className="text-gray-600 mb-2">Tramitación de homologaciones para trabajar con grandes empresas y organismos públicos</p>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Homologaciones industriales</li>
-                      <li>• Registro de proveedores</li>
-                      <li>• Certificaciones de calidad</li>
-                    </ul>
+                    <h4 className="font-semibold mb-2 text-smartclean-secondary">Limpieza y desinfección en baños y cocina</h4>
+                    <p className="text-gray-600 mb-2">Zonas críticas con tratamiento especializado</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <CheckCircle className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold mb-2 text-mantexia-secondary">Gestión de Vencimientos</h4>
-                    <p className="text-gray-600 mb-2">Sistema de control y alertas para renovaciones y actualizaciones documentales</p>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Calendario de renovaciones</li>
-                      <li>• Alertas automáticas de vencimiento</li>
-                      <li>• Renovación proactiva de documentos</li>
-                    </ul>
+                    <h4 className="font-semibold mb-2 text-smartclean-secondary">Recogida de basura</h4>
+                    <p className="text-gray-600 mb-2">Vaciado papeleras y gestión de residuos</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <CheckCircle className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold mb-2 text-mantexia-secondary">Asesoramiento Normativo</h4>
-                    <p className="text-gray-600 mb-2">Consultoría especializada en normativas y cambios legislativos del sector</p>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• Actualización normativa continua</li>
-                      <li>• Asesoramiento personalizado</li>
-                      <li>• Adaptación a nuevas regulaciones</li>
-                    </ul>
+                    <h4 className="font-semibold mb-2 text-smartclean-secondary">Plan personalizado</h4>
+                    <p className="text-gray-600 mb-2">Nos adaptamos a las necesidades de cada negocio</p>
                   </div>
                 </div>
               </div>
@@ -290,27 +255,27 @@ export default function GestionDocumentalPage() {
 
             {/* Value Proposition */}
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-mantexia-primary text-white p-8 rounded-2xl hover-lift">
+              <div className="bg-smartclean-primary text-white p-8 rounded-2xl hover-lift">
                 <div className="flex items-start gap-4 mb-4">
                   <Clock className="w-8 h-8 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-2xl font-bold mb-2">Ahorre Tiempo y Dinero</h3>
                     <p className="text-lg">
-                      Evite contratar personal administrativo. Nosotros gestionamos toda su documentación 
-                      por una fracción del coste de un empleado.
+                      Evite que su personal dedique tiempo a la limpieza. Nosotros mantenemos su oficina 
+                      impecable por una fracción del coste del tiempo de sus empleados.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-mantexia-secondary text-white p-8 rounded-2xl hover-lift">
+              <div className="bg-smartclean-secondary text-white p-8 rounded-2xl hover-lift">
                 <div className="flex items-start gap-4 mb-4">
                   <Shield className="w-8 h-8 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="text-2xl font-bold mb-2">Garantía de Cumplimiento</h3>
+                    <h3 className="text-2xl font-bold mb-2">Garantía de Salud</h3>
                     <p className="text-lg">
-                      Nos responsabilizamos de que toda su documentación esté correcta, actualizada 
-                      y cumpla con la normativa vigente.
+                      Utilizamos productos ecológicos que protegen la salud de sus empleados 
+                      y el medio ambiente, cumpliendo con estándares de calidad.
                     </p>
                   </div>
                 </div>
@@ -319,52 +284,52 @@ export default function GestionDocumentalPage() {
 
             {/* Process */}
             <div className="bg-white rounded-2xl p-8 mb-12 shadow-lg">
-              <h3 className="text-3xl font-bold mb-6 text-mantexia-secondary text-center">
+              <h3 className="text-3xl font-bold mb-6 text-smartclean-secondary text-center">
                 Nuestro Proceso de Trabajo
               </h3>
               <div className="grid md:grid-cols-4 gap-6">
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-mantexia-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
-                  <h4 className="font-semibold mb-2 text-mantexia-secondary">Análisis Inicial</h4>
-                  <p className="text-sm text-gray-600">Revisamos su situación actual y identificamos necesidades documentales específicas</p>
+                  <div className="w-16 h-16 bg-smartclean-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
+                  <h4 className="font-semibold mb-2 text-smartclean-secondary">Estudio Inicial</h4>
+                  <p className="text-sm text-gray-600">Analizamos sus instalaciones y necesidades específicas de limpieza</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-mantexia-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
-                  <h4 className="font-semibold mb-2 text-mantexia-secondary">Plan Personalizado</h4>
-                  <p className="text-sm text-gray-600">Creamos un plan de gestión documental adaptado a su actividad y tamaño</p>
+                  <div className="w-16 h-16 bg-smartclean-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
+                  <h4 className="font-semibold mb-2 text-smartclean-secondary">Plan Personalizado</h4>
+                  <p className="text-sm text-gray-600">Creamos un plan de limpieza adaptado y consensuado con el cliente</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-mantexia-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
-                  <h4 className="font-semibold mb-2 text-mantexia-secondary">Tramitación Completa</h4>
-                  <p className="text-sm text-gray-600">Gestionamos todos los trámites necesarios sin que usted se preocupe</p>
+                  <div className="w-16 h-16 bg-smartclean-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
+                  <h4 className="font-semibold mb-2 text-smartclean-secondary">Servicio Profesional</h4>
+                  <p className="text-sm text-gray-600">Ejecutamos el servicio con nuestro equipo altamente capacitado</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-mantexia-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">4</div>
-                  <h4 className="font-semibold mb-2 text-mantexia-secondary">Mantenimiento Continuo</h4>
-                  <p className="text-sm text-gray-600">Mantenemos actualizada su documentación con alertas de vencimiento</p>
+                  <div className="w-16 h-16 bg-smartclean-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">4</div>
+                  <h4 className="font-semibold mb-2 text-smartclean-secondary">Control de Calidad</h4>
+                  <p className="text-sm text-gray-600">Realizamos revisiones periódicas para garantizar la excelencia del servicio</p>
                 </div>
               </div>
             </div>
 
             {/* Call to Action */}
-            <div className="bg-mantexia-primary text-white p-8 rounded-xl text-center hover-lift">
+            <div className="bg-smartclean-primary text-white p-8 rounded-xl text-center hover-lift">
               <div className="flex items-center justify-center gap-4 mb-4">
                 <Briefcase className="w-8 h-8" />
-                <h3 className="text-2xl font-bold">Su Departamento Administrativo Externo</h3>
+                <h3 className="text-2xl font-bold">Su Socio de Limpieza de Confianza</h3>
               </div>
               <p className="text-lg mb-6">
-                Libérese de trámites burocráticos y céntrese en hacer crecer su negocio. 
-                Nosotros nos encargamos de toda su gestión documental.
+                La limpieza de una oficina es fundamental para reflejar el compromiso de una empresa 
+                tanto con sus empleados como con sus visitantes. Proyecta una imagen de confianza y organización.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <span className="bg-white/20 px-4 py-2 rounded-full font-semibold">
-                  ✓ Especialistas en autónomos
+                  ✓ Servicio integral
                 </span>
                 <span className="bg-white/20 px-4 py-2 rounded-full font-semibold">
-                  ✓ Empresas hasta 15 trabajadores
+                  ✓ Productos ecológicos
                 </span>
                 <span className="bg-white/20 px-4 py-2 rounded-full font-semibold">
-                  ✓ Gestión integral
+                  ✓ Horarios flexibles
                 </span>
               </div>
             </div>
@@ -377,9 +342,9 @@ export default function GestionDocumentalPage() {
         <div className="container-custom">
           <div className="max-w-2xl mx-auto">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold mb-4 text-mantexia-secondary">Solicite su Gestión Documental</h2>
+              <h2 className="text-4xl font-bold mb-4 text-smartclean-secondary">Solicite presupuesto para limpieza de oficinas</h2>
               <p className="text-xl text-gray-600">
-                Contacte con nosotros y olvídese para siempre de los trámites burocráticos
+                Contacte con nosotros y mantenga su oficina impecable
               </p>
             </div>
 
@@ -392,3 +357,4 @@ export default function GestionDocumentalPage() {
     </>
   )
 }
+

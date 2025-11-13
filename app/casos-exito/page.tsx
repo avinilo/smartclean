@@ -33,91 +33,91 @@ export default function CasosExito() {
   ]
   const successCases = [
     {
-      title: "Nou Mestalla - Valencia CF",
-      location: "Valencia",
+      title: "Planta Industrial Ford - Almussafes",
+      location: "Almussafes, Valencia",
       date: "2024",
-      category: "Mano de Obra Especializada",
-      description: "Suministro de técnicos electricistas y electromecánicos para las instalaciones del nuevo estadio del Valencia CF",
-      image: "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=1200&h=800&fit=crop&auto=format",
+      category: "Limpieza Industrial",
+      description: "Limpieza integral de instalaciones de producción, oficinas administrativas y zonas comunes en la planta automovilística",
+      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&h=800&fit=crop&auto=format",
       results: [
-        "15+ técnicos especializados desplegados",
-        "Instalaciones eléctricas de alta complejidad",
-        "Cumplimiento estricto de plazos de obra",
-        "Certificaciones PRL y seguridad al 100%"
-      ],
-      duration: "12 meses",
-      teamSize: "15+ técnicos",
-      rating: 5
-    },
-    {
-      title: "Roig Arena - Pabellón Deportivo",
-      location: "Valencia",
-      date: "2023",
-      category: "Instalaciones Deportivas",
-      description: "Mantenimiento integral y servicios técnicos especializados para el pabellón deportivo Roig Arena",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&h=800&fit=crop&auto=format",
-      results: [
-        "Sistema eléctrico optimizado para eventos",
-        "Mantenimiento preventivo continuo",
-        "Respuesta 24h para emergencias",
-        "Reducción del 30% en incidencias técnicas"
+        "45.000m² de instalaciones limpiadas diariamente",
+        "Cumplimiento normativa ISO 14001 y OSHA",
+        "Reducción del 60% en incidentes por suciedad",
+        "Certificación en gestión de residuos industriales"
       ],
       duration: "Contrato anual",
-      teamSize: "8 técnicos",
+      teamSize: "25+ limpiadores",
       rating: 5
     },
     {
-      title: "Hospitales Privados Valencia",
+      title: "Centro Comercial Arena Multiespacio",
+      location: "Valencia",
+      date: "2023",
+      category: "Limpieza de Oficinas",
+      description: "Servicio de limpieza diaria para oficinas corporativas, zonas comerciales y espacios de ocio en centro comercial",
+      image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=800&fit=crop&auto=format",
+      results: [
+        "12.000m² de oficinas limpiadas diariamente",
+        "Sistema de limpieza eco-friendly implementado",
+        "Satisfacción del cliente: 98%",
+        "Reducción del 40% en consumo de productos químicos"
+      ],
+      duration: "Contrato anual renovable",
+      teamSize: "18 limpiadores",
+      rating: 5
+    },
+    {
+      title: "Comunidad de Propietarios La Marina",
       location: "Valencia y área metropolitana",
       date: "2023-2024",
-      category: "Sector Sanitario",
-      description: "Gestión documental y servicios de mano de obra para múltiples centros hospitalarios privados",
-      image: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1200&h=800&fit=crop&auto=format",
+      category: "Limpieza de Comunidades",
+      description: "Limpieza integral de 15 comunidades de vecinos incluyendo zonas comunes, trasteros y garajes",
+      image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200&h=800&fit=crop&auto=format",
       results: [
-        "Gestión PRL para 200+ trabajadores",
-        "Certificaciones sanitarias actualizadas",
-        "Técnicos especializados en instalaciones críticas",
-        "Cumplimiento normativa sanitaria 100%"
+        "15 comunidades atendidas semanalmente",
+        "Sistema de limpieza nocturna implementado",
+        "Reducción del 70% en quejas vecinales",
+        "Mejora del 85% en evaluaciones de limpieza"
       ],
       duration: "Servicios continuos",
-      teamSize: "12 técnicos",
+      teamSize: "20 limpiadores",
       rating: 5
     },
     {
-      title: "Hoteles y Residencias",
+      title: "Cadena de Restaurantes Grupo Gourmet",
       location: "Costa valenciana",
       date: "2022-2024",
-      category: "Sector Hotelero",
-      description: "Servicios integrales de mantenimiento y gestión documental para cadenas hoteleras y residencias",
-      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&h=800&fit=crop&auto=format",
+      category: "Limpieza de Locales Comerciales",
+      description: "Servicios de limpieza profunda para 8 restaurantes de alta gama incluyendo cocinas industriales y zonas de comedor",
+      image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=800&fit=crop&auto=format",
       results: [
-        "Mantenimiento preventivo 24/7",
-        "Gestión administrativa externa completa",
-        "Técnicos especializados en hostelería",
-        "Mejora del 40% en eficiencia operativa"
+        "Cumplimiento normativa de seguridad alimentaria",
+        "Certificaciones sanitarias al 100%",
+        "Reducción del 90% en inspecciones negativas",
+        "Mejora del 95% en auditorías de higiene"
       ],
       duration: "Contratos plurianuales",
-      teamSize: "10+ técnicos",
+      teamSize: "15+ limpiadores especializados",
       rating: 5
     }
   ]
 
   const stats = [
-    { number: "200+", label: "Proyectos Completados", icon: Award },
+    { number: "500+", label: "Servicios Mensuales", icon: Award },
     { number: "98%", label: "Satisfacción Cliente", icon: Star },
-    { number: "15+", label: "Años Experiencia", icon: Calendar },
-    { number: "50+", label: "Empresas Confían", icon: Users }
+    { number: "10+", label: "Años Experiencia", icon: Calendar },
+    { number: "150+", label: "Clientes Activos", icon: Users }
   ]
 
   return (
     <>
       {/* Hero Section */}
-      <section className="hero-mantexia overflow-hidden relative -mt-20 pt-20">
-        <div className="absolute inset-0 bg-mantexia-overlay"></div>
+      <section className="hero-smartclean overflow-hidden relative -mt-20 pt-20">
+        <div className="absolute inset-0 bg-smartclean-overlay"></div>
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&h=1080&fit=crop&auto=format"
-            alt="Casos de éxito de Mantexia - Proyectos realizados"
+            src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1920&h=1080&fit=crop&auto=format"
+            alt="Casos de éxito de Smart Clean - Proyectos de limpieza realizados"
             fill
             className="object-cover"
             priority
@@ -131,7 +131,7 @@ export default function CasosExito() {
               Casos de Éxito
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-white/90 animate-fade-in animate-delay-300">
-              Proyectos que demuestran nuestra experiencia y profesionalidad
+              Ejemplos de limpieza profesional que demuestran nuestra experiencia y compromiso
             </p>
           </div>
         </div>
@@ -146,10 +146,10 @@ export default function CasosExito() {
               return (
                 <div 
                   key={index}
-                  className={`text-center p-6 bg-mantexia-light rounded-xl animate-scale-in animate-delay-${(index + 1) * 200}`}
+                  className={`text-center p-6 bg-smartclean-light rounded-xl animate-scale-in animate-delay-${(index + 1) * 200}`}
                 >
-                  <IconComponent className="w-12 h-12 text-mantexia-secondary mx-auto mb-4" />
-                  <div className="text-3xl font-bold text-mantexia-secondary mb-2">{stat.number}</div>
+                  <IconComponent className="w-12 h-12 text-smartclean-secondary mx-auto mb-4" />
+                  <div className="text-3xl font-bold text-smartclean-secondary mb-2">{stat.number}</div>
                   <div className="text-gray-600">{stat.label}</div>
                 </div>
               )
@@ -157,11 +157,11 @@ export default function CasosExito() {
           </div>
 
           <div className="text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-mantexia-secondary animate-fade-in">
-              Resultados que Hablan por Sí Solos
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-smartclean-secondary animate-fade-in">
+              Resultados de Limpieza Profesional
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed animate-slide-up animate-delay-200">
-              Más de una década de experiencia nos avala. Cada proyecto es una oportunidad de demostrar 
+              Más de una década de experiencia en limpieza industrial y de oficinas nos avala. Cada proyecto es una oportunidad de demostrar 
               nuestro compromiso con la excelencia y la satisfacción del cliente.
             </p>
           </div>
@@ -172,11 +172,11 @@ export default function CasosExito() {
       <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-mantexia-secondary animate-fade-in">
-              Proyectos Destacados
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-smartclean-secondary animate-fade-in">
+              Servicios de Limpieza Destacados
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto animate-slide-up animate-delay-200">
-              Algunos de nuestros proyectos más representativos en Valencia
+              Algunos de nuestros servicios de limpieza más representativos en Valencia
             </p>
           </div>
 
@@ -196,19 +196,19 @@ export default function CasosExito() {
                       loading="lazy"
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
-                    <div className="absolute inset-0 bg-mantexia-primary/10"></div>
+                    <div className="absolute inset-0 bg-smartclean-primary/10"></div>
                   </div>
                 </div>
                 
                 <div className={`${index % 2 === 1 ? 'lg:order-1' : ''}`}>
                   <div className="flex items-center gap-3 mb-4">
-                    <span className="text-sm font-semibold text-mantexia-primary bg-mantexia-light px-3 py-1 rounded-full">
+                    <span className="text-sm font-semibold text-smartclean-primary bg-smartclean-light px-3 py-1 rounded-full">
                       {project.category}
                     </span>
                     <span className="text-sm text-gray-500">{project.date}</span>
                   </div>
                   
-                  <h3 className="text-3xl md:text-4xl font-bold mb-4 text-mantexia-secondary">
+                  <h3 className="text-3xl md:text-4xl font-bold mb-4 text-smartclean-secondary">
                     {project.title}
                   </h3>
                   
@@ -223,20 +223,20 @@ export default function CasosExito() {
                   
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
                     <div className="flex items-center gap-2">
-                      <Clock className="w-4 h-4 text-mantexia-primary" />
+                      <Clock className="w-4 h-4 text-smartclean-primary" />
                       <span className="text-sm text-gray-600">Duración: {project.duration}</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Users className="w-4 h-4 text-mantexia-primary" />
+                      <Users className="w-4 h-4 text-smartclean-primary" />
                       <span className="text-sm text-gray-600">Equipo: {project.teamSize}</span>
                     </div>
                   </div>
                   
                   <div className="space-y-3 mb-6">
-                    <h4 className="font-bold text-mantexia-secondary">Resultados Obtenidos:</h4>
+                    <h4 className="font-bold text-smartclean-secondary">Resultados Obtenidos:</h4>
                     {project.results.map((result, resultIndex) => (
                       <div key={resultIndex} className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-mantexia-primary flex-shrink-0 mt-0.5" />
+                        <CheckCircle className="w-5 h-5 text-smartclean-primary flex-shrink-0 mt-0.5" />
                         <span className="text-gray-700">{result}</span>
                       </div>
                     ))}
@@ -246,7 +246,7 @@ export default function CasosExito() {
                     <span className="text-sm font-semibold text-gray-700">Valoración:</span>
                     <div className="flex gap-1">
                       {[...Array(project.rating)].map((_, starIndex) => (
-                        <Star key={starIndex} className="w-4 h-4 fill-mantexia-primary text-mantexia-primary" />
+                        <Star key={starIndex} className="w-4 h-4 fill-smartclean-primary text-smartclean-primary" />
                       ))}
                     </div>
                     <span className="text-sm text-gray-600">({project.rating}/5)</span>
@@ -262,11 +262,11 @@ export default function CasosExito() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-mantexia-secondary animate-fade-in">
-              Lo que Dicen Nuestros Clientes
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-smartclean-secondary animate-fade-in">
+              Lo que Dicen Nuestros Clientes de Limpieza
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto animate-slide-up animate-delay-200">
-              Testimonios reales de empresas que han confiado en Mantexia
+              Testimonios reales de empresas que han confiado en Smart Clean para sus servicios de limpieza
             </p>
           </div>
           
@@ -282,10 +282,10 @@ export default function CasosExito() {
        </section>
 
        {/* Estadísticas */}
-       <section className="section-padding bg-mantexia-light">
+       <section className="section-padding bg-smartclean-light">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-mantexia-secondary animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-smartclean-secondary animate-fade-in">
               Nuestra Metodología
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto animate-slide-up animate-delay-200">
@@ -320,10 +320,10 @@ export default function CasosExito() {
                 key={index}
                 className={`text-center p-6 bg-white rounded-xl shadow-lg animate-scale-in animate-delay-${(index + 1) * 200}`}
               >
-                <div className="w-16 h-16 bg-mantexia-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                <div className="w-16 h-16 bg-smartclean-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                   {phase.step}
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-mantexia-secondary">{phase.title}</h3>
+                <h3 className="text-xl font-bold mb-3 text-smartclean-secondary">{phase.title}</h3>
                 <p className="text-gray-600">{phase.description}</p>
               </div>
             ))}
@@ -335,12 +335,12 @@ export default function CasosExito() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-mantexia-secondary animate-fade-in">
-              ¿Listo para tu Próximo Proyecto?
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-smartclean-secondary animate-fade-in">
+              ¿Listo para Servicios de Limpieza Profesional?
             </h2>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed animate-slide-up animate-delay-200">
-              Únete a las más de 200 empresas que han confiado en Mantexia para sus proyectos. 
-              Contáctanos y descubre cómo podemos ayudarte a alcanzar tus objetivos.
+              Únete a las más de 150 empresas que han confiado en Smart Clean para sus servicios de limpieza. 
+              Contáctanos y descubre cómo podemos mantener tus instalaciones impecables.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-bounce-in animate-delay-400">
@@ -357,3 +357,4 @@ export default function CasosExito() {
     </>
   )
 }
+

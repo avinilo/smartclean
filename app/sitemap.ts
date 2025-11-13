@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 
 // Configuración inteligente de sitemap
 const SITEMAP_CONFIG = {
-  baseUrl: 'https://mantexia.com',
+  baseUrl: 'https://limpiezassmartclean.com',
   // Frecuencias de actualización inteligentes basadas en el tipo de contenido
   frequencies: {
     homepage: 'weekly' as const,
@@ -31,22 +31,82 @@ const PAGES_METADATA = [
     images: ['/og-image.png', '/hero-image.jpg']
   },
   {
-    path: '/mano-obra',
+    path: '/limpieza-oficinas',
     type: 'mainServices',
     lastModified: new Date('2024-01-10'),
-    images: ['/services/mano-obra.jpg', '/services/mano-obra-hero.jpg']
+    images: ['/services/oficinas.jpg', '/services/oficinas-hero.jpg']
   },
   {
-    path: '/gestora-mantenimientos',
+    path: '/limpieza-comunidades',
     type: 'mainServices',
     lastModified: new Date('2024-01-10'),
-    images: ['/services/gestora.jpg', '/services/gestora-dashboard.jpg']
+    images: ['/services/comunidades.jpg', '/services/comunidades-hero.jpg']
   },
   {
-    path: '/gestion-documental',
+    path: '/limpieza-industrial',
     type: 'mainServices',
     lastModified: new Date('2024-01-10'),
-    images: ['/services/documental.jpg', '/services/documental-system.jpg']
+    images: ['/services/industrial.jpg', '/services/industrial-hero.jpg']
+  },
+  {
+    path: '/limpieza-colegios',
+    type: 'mainServices',
+    lastModified: new Date('2024-01-10'),
+    images: ['/services/colegios.jpg', '/services/colegios-hero.jpg']
+  },
+  {
+    path: '/limpieza-cristales',
+    type: 'mainServices',
+    lastModified: new Date('2024-01-10'),
+    images: ['/services/cristales.jpg', '/services/cristales-hero.jpg']
+  },
+  {
+    path: '/limpieza-garajes',
+    type: 'mainServices',
+    lastModified: new Date('2024-01-10'),
+    images: ['/services/garajes.jpg', '/services/garajes-hero.jpg']
+  },
+  {
+    path: '/limpieza-gimnasios',
+    type: 'mainServices',
+    lastModified: new Date('2024-01-10'),
+    images: ['/services/gimnasios.jpg', '/services/gimnasios-hero.jpg']
+  },
+  {
+    path: '/limpieza-talleres',
+    type: 'mainServices',
+    lastModified: new Date('2024-01-10'),
+    images: ['/services/talleres.jpg', '/services/talleres-hero.jpg']
+  },
+  {
+    path: '/limpieza-coworking',
+    type: 'mainServices',
+    lastModified: new Date('2024-01-10'),
+    images: ['/services/coworking.jpg', '/services/coworking-hero.jpg']
+  },
+  {
+    path: '/vitrificado-suelos',
+    type: 'mainServices',
+    lastModified: new Date('2024-01-10'),
+    images: ['/services/vitrificado.jpg', '/services/vitrificado-hero.jpg']
+  },
+  {
+    path: '/servicios/instalaciones-deportivas',
+    type: 'mainServices',
+    lastModified: new Date('2024-01-10'),
+    images: ['/services/deportivas.jpg', '/services/deportivas-hero.jpg']
+  },
+  {
+    path: '/servicios/servicios-especiales',
+    type: 'mainServices',
+    lastModified: new Date('2024-01-10'),
+    images: ['/services/especiales.jpg', '/services/especiales-hero.jpg']
+  },
+  {
+    path: '/blog',
+    type: 'secondaryServices',
+    lastModified: new Date('2024-01-08'),
+    images: ['/blog/hero.jpg']
   },
   {
     path: '/sobre-nosotros',

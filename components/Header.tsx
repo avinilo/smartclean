@@ -48,9 +48,18 @@ export default function Header() {
   }, [lastScrollY, isMenuOpen])
 
   const services = [
-    { name: 'Mano de Obra', href: '/mano-obra' },
-    { name: 'Gestora de Mantenimientos', href: '/gestora-mantenimientos' },
-    { name: 'Gestión Documental', href: '/gestion-documental' },
+    { name: 'Limpieza de Comunidades', href: '/limpieza-comunidades' },
+    { name: 'Limpieza Industrial', href: '/limpieza-industrial' },
+    { name: 'Limpieza de Oficinas', href: '/gestion-documental' },
+    { name: 'Limpieza de Garajes', href: '/limpieza-garajes' },
+    { name: 'Limpieza de Cristales', href: '/limpieza-cristales' },
+    { name: 'Limpieza de Talleres', href: '/limpieza-talleres' },
+    { name: 'Limpieza de Colegios', href: '/limpieza-colegios' },
+    { name: 'Vitrificado de Suelos', href: '/vitrificado-suelos' },
+    { name: 'Limpieza de Coworking', href: '/limpieza-coworking' },
+    { name: 'Limpieza de Gimnasios', href: '/limpieza-gimnasios' },
+    { name: 'Limpieza de Instalaciones Deportivas', href: '/servicios/instalaciones-deportivas' },
+    { name: 'Servicios Especiales', href: '/servicios/servicios-especiales' },
   ]
 
   const nosotrosItems = [
@@ -64,16 +73,16 @@ export default function Header() {
        isHeaderVisible ? 'top-0' : '-top-20'
      } ${
        isScrolled || isMenuOpen
-         ? `bg-mantexia-light shadow-lg ${isBorderVisible ? 'border-b border-mantexia-primary/20' : ''}` 
+        ? `bg-smartclean-light shadow-lg ${isBorderVisible ? 'border-b border-smartclean-primary/20' : ''}` 
          : 'bg-transparent'
      }`}>
       <nav className="container-custom">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center hover-scale" aria-label="Mantexia - Ir a página de inicio">
+          <Link href="/" className="flex items-center hover-scale" aria-label="Smart Clean - Ir a página de inicio">
             <Image
-              src="/MANTEXIA__solo_nombre_-2-removebg-preview-e1749230794480.png"
-              alt="Mantexia - Soluciones integrales para obras y fábricas"
+              src="/logo.webp"
+              alt="Smart Clean - Servicios profesionales de limpieza"
               width={150}
               height={50}
               className={`h-10 w-auto transition-smooth ${isScrolled || isMenuOpen ? '' : 'brightness-0 invert'}`}
@@ -87,13 +96,13 @@ export default function Header() {
               href="/"
               className={`font-medium transition-smooth relative group ${
                 isScrolled 
-                  ? 'text-mantexia-secondary hover:text-mantexia-primary' 
+                  ? 'text-smartclean-secondary hover:text-smartclean-primary' 
                   : 'text-white hover:text-white/80'
               }`}
             >
               Inicio
               <span className={`absolute -bottom-1 left-0 w-0 h-0.5 transition-smooth group-hover:w-full ${
-                isScrolled ? 'bg-mantexia-primary' : 'bg-white'
+                isScrolled ? 'bg-smartclean-primary' : 'bg-white'
               }`}></span>
             </Link>
 
@@ -104,7 +113,7 @@ export default function Header() {
                 onMouseLeave={() => setIsServicesOpen(false)}
                 className={`flex items-center gap-1 font-medium transition-smooth relative group ${
                   isScrolled 
-                    ? 'text-mantexia-secondary hover:text-mantexia-primary' 
+                    ? 'text-smartclean-secondary hover:text-smartclean-primary' 
                     : 'text-white hover:text-white/80'
                 }`}
                 aria-expanded={isServicesOpen}
@@ -114,13 +123,13 @@ export default function Header() {
                 Servicios
                 <ChevronDown className={`w-4 h-4 transition-smooth ${isServicesOpen ? 'rotate-180' : ''}`} />
                 <span className={`absolute -bottom-1 left-0 w-0 h-0.5 transition-smooth group-hover:w-full ${
-                  isScrolled ? 'bg-mantexia-primary' : 'bg-white'
+                  isScrolled ? 'bg-smartclean-primary' : 'bg-white'
                 }`}></span>
               </button>
               
               {/* Dropdown Menu - mantiene colores originales */}
               <div 
-                className={`absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-mantexia-light transition-smooth ${
+                className={`absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-smartclean-light transition-smooth ${
                   isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
                 }`}
                 onMouseEnter={() => setIsServicesOpen(true)}
@@ -133,7 +142,7 @@ export default function Header() {
                     <Link
                       key={service.name}
                       href={service.href}
-                      className="block px-4 py-3 text-mantexia-secondary hover:text-mantexia-primary hover:bg-mantexia-light/50 transition-smooth hover-lift"
+                      className="block px-4 py-3 text-smartclean-secondary hover:text-smartclean-primary hover:bg-smartclean-light/50 transition-smooth hover-lift"
                       role="menuitem"
                     >
                       {service.name}
@@ -150,7 +159,7 @@ export default function Header() {
                 onMouseLeave={() => setIsNosotrosOpen(false)}
                 className={`flex items-center gap-1 font-medium transition-smooth relative group ${
                   isScrolled 
-                    ? 'text-mantexia-secondary hover:text-mantexia-primary' 
+                    ? 'text-smartclean-secondary hover:text-smartclean-primary' 
                     : 'text-white hover:text-white/80'
                 }`}
                 aria-expanded={isNosotrosOpen}
@@ -160,13 +169,13 @@ export default function Header() {
                 Nosotros
                 <ChevronDown className={`w-4 h-4 transition-smooth ${isNosotrosOpen ? 'rotate-180' : ''}`} />
                 <span className={`absolute -bottom-1 left-0 w-0 h-0.5 transition-smooth group-hover:w-full ${
-                  isScrolled ? 'bg-mantexia-primary' : 'bg-white'
+                  isScrolled ? 'bg-smartclean-primary' : 'bg-white'
                 }`}></span>
               </button>
               
               {/* Dropdown Menu */}
               <div 
-                className={`absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-mantexia-light transition-smooth ${
+                className={`absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-smartclean-light transition-smooth ${
                   isNosotrosOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
                 }`}
                 onMouseEnter={() => setIsNosotrosOpen(true)}
@@ -179,7 +188,7 @@ export default function Header() {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className="block px-4 py-3 text-mantexia-secondary hover:text-mantexia-primary hover:bg-mantexia-light/50 transition-smooth hover-lift"
+                      className="block px-4 py-3 text-smartclean-secondary hover:text-smartclean-primary hover:bg-smartclean-light/50 transition-smooth hover-lift"
                       role="menuitem"
                     >
                       {item.name}
@@ -193,13 +202,28 @@ export default function Header() {
               href="/preguntas-frecuentes"
               className={`font-medium transition-smooth relative group ${
                 isScrolled 
-                  ? 'text-mantexia-secondary hover:text-mantexia-primary' 
+                  ? 'text-smartclean-secondary hover:text-smartclean-primary' 
                   : 'text-white hover:text-white/80'
               }`}
             >
               FAQ
               <span className={`absolute -bottom-1 left-0 w-0 h-0.5 transition-smooth group-hover:w-full ${
-                isScrolled ? 'bg-mantexia-primary' : 'bg-white'
+                isScrolled ? 'bg-smartclean-primary' : 'bg-white'
+              }`}></span>
+            </Link>
+
+            {/* Blog */}
+            <Link
+              href="/blog"
+              className={`font-medium transition-smooth relative group ${
+                isScrolled 
+                  ? 'text-smartclean-secondary hover:text-smartclean-primary' 
+                  : 'text-white hover:text-white/80'
+              }`}
+            >
+              Blog
+              <span className={`absolute -bottom-1 left-0 w-0 h-0.5 transition-smooth group-hover:w-full ${
+                isScrolled ? 'bg-smartclean-primary' : 'bg-white'
               }`}></span>
             </Link>
 
@@ -207,20 +231,20 @@ export default function Header() {
               href="/#contacto"
               className={`font-medium transition-smooth relative group ${
                 isScrolled 
-                  ? 'text-mantexia-secondary hover:text-mantexia-primary' 
+                  ? 'text-smartclean-secondary hover:text-smartclean-primary' 
                   : 'text-white hover:text-white/80'
               }`}
             >
               Contacto
               <span className={`absolute -bottom-1 left-0 w-0 h-0.5 transition-smooth group-hover:w-full ${
-                isScrolled ? 'bg-mantexia-primary' : 'bg-white'
+                isScrolled ? 'bg-smartclean-primary' : 'bg-white'
               }`}></span>
             </Link>
           </nav>
 
           {/* CTA Button Desktop */}
           <div className="hidden lg:block">
-            <a href="tel:663423034" className="btn-mantexia-primary text-sm py-2 px-6 flex items-center gap-2 hover-lift">
+            <a href="tel:+34691616465" className="btn-smartclean-primary text-sm py-2 px-6 flex items-center gap-2 hover-lift">
               <Phone className="w-4 h-4" />
               Llamar
             </a>
@@ -229,15 +253,15 @@ export default function Header() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 rounded-lg hover:bg-mantexia-light/50 transition-smooth hover-scale"
+            className="lg:hidden p-2 rounded-lg hover:bg-smartclean-light/50 transition-smooth hover-scale"
             aria-expanded={isMenuOpen}
             aria-controls="mobile-menu"
             aria-label={isMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
           >
             {isMenuOpen ? (
-              <X className={`h-6 w-6 transition-smooth ${isScrolled || isMenuOpen ? 'text-mantexia-secondary' : 'text-white'}`} />
+              <X className={`h-6 w-6 transition-smooth ${isScrolled || isMenuOpen ? 'text-smartclean-secondary' : 'text-white'}`} />
             ) : (
-              <Menu className={`h-6 w-6 transition-smooth ${isScrolled || isMenuOpen ? 'text-mantexia-secondary' : 'text-white'}`} />
+              <Menu className={`h-6 w-6 transition-smooth ${isScrolled || isMenuOpen ? 'text-smartclean-secondary' : 'text-white'}`} />
             )}
           </button>
         </div>
@@ -246,7 +270,7 @@ export default function Header() {
         {isMenuOpen && (
           <div 
             id="mobile-menu"
-            className="lg:hidden fixed top-20 left-0 w-full bg-white shadow-lg border-t border-mantexia-primary/20 z-40 animate-slide-up"
+            className="lg:hidden fixed top-20 left-0 w-full bg-white shadow-lg border-t border-smartclean-primary/20 z-40 animate-slide-up max-h-[calc(100vh-5rem)] overflow-y-auto"
             role="navigation"
             aria-label="Menú de navegación móvil"
           >
@@ -254,21 +278,37 @@ export default function Header() {
               <Link
                 href="/"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-mantexia-secondary hover:text-mantexia-primary font-medium transition-smooth px-4 py-2 rounded-lg hover:bg-mantexia-light/50 hover-lift"
+                className="text-smartclean-secondary hover:text-smartclean-primary font-medium transition-smooth px-4 py-2 rounded-lg hover:bg-smartclean-light/50 hover-lift"
               >
                 Inicio
               </Link>
 
-              {/* Mobile Services */}
+              {/* Mobile Services - Ahora con desplegable */}
               <div className="px-4">
-                <p className="text-mantexia-secondary font-medium mb-2">Servicios</p>
-                <div className="pl-4 space-y-2">
+                <button
+                  onClick={() => setIsServicesOpen(!isServicesOpen)}
+                  className="flex items-center justify-between w-full text-smartclean-secondary font-medium transition-smooth py-2 rounded-lg hover:bg-smartclean-light/50 hover-lift"
+                  aria-expanded={isServicesOpen}
+                  aria-controls="mobile-services-menu"
+                >
+                  <span>Servicios</span>
+                  <ChevronDown className={`w-4 h-4 transition-smooth ${isServicesOpen ? 'rotate-180' : ''}`} />
+                </button>
+                <div 
+                  id="mobile-services-menu"
+                  className={`pl-4 space-y-2 transition-all duration-300 overflow-hidden ${
+                    isServicesOpen ? 'max-h-96 opacity-100 mt-2' : 'max-h-0 opacity-0'
+                  }`}
+                >
                   {services.map((service) => (
                     <Link
                       key={service.name}
                       href={service.href}
-                      onClick={() => setIsMenuOpen(false)}
-                      className="block text-gray-600 hover:text-mantexia-primary transition-smooth py-1 hover-lift"
+                      onClick={() => {
+                        setIsMenuOpen(false)
+                        setIsServicesOpen(false)
+                      }}
+                      className="block text-gray-600 hover:text-smartclean-primary transition-smooth py-1 hover-lift"
                     >
                       {service.name}
                     </Link>
@@ -276,16 +316,32 @@ export default function Header() {
                 </div>
               </div>
 
-              {/* Mobile Nosotros */}
+              {/* Mobile Nosotros - Ahora con desplegable */}
               <div className="px-4">
-                <p className="text-mantexia-secondary font-medium mb-2">Nosotros</p>
-                <div className="pl-4 space-y-2">
+                <button
+                  onClick={() => setIsNosotrosOpen(!isNosotrosOpen)}
+                  className="flex items-center justify-between w-full text-smartclean-secondary font-medium transition-smooth py-2 rounded-lg hover:bg-smartclean-light/50 hover-lift"
+                  aria-expanded={isNosotrosOpen}
+                  aria-controls="mobile-nosotros-menu"
+                >
+                  <span>Nosotros</span>
+                  <ChevronDown className={`w-4 h-4 transition-smooth ${isNosotrosOpen ? 'rotate-180' : ''}`} />
+                </button>
+                <div 
+                  id="mobile-nosotros-menu"
+                  className={`pl-4 space-y-2 transition-all duration-300 overflow-hidden ${
+                    isNosotrosOpen ? 'max-h-96 opacity-100 mt-2' : 'max-h-0 opacity-0'
+                  }`}
+                >
                   {nosotrosItems.map((item) => (
                     <Link
                       key={item.name}
                       href={item.href}
-                      onClick={() => setIsMenuOpen(false)}
-                      className="block text-gray-600 hover:text-mantexia-primary transition-smooth py-1 hover-lift"
+                      onClick={() => {
+                        setIsMenuOpen(false)
+                        setIsNosotrosOpen(false)
+                      }}
+                      className="block text-gray-600 hover:text-smartclean-primary transition-smooth py-1 hover-lift"
                     >
                       {item.name}
                     </Link>
@@ -296,21 +352,30 @@ export default function Header() {
               <Link
                 href="/preguntas-frecuentes"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-mantexia-secondary hover:text-mantexia-primary font-medium transition-smooth px-4 py-2 rounded-lg hover:bg-mantexia-light/50 hover-lift"
+                className="text-smartclean-secondary hover:text-smartclean-primary font-medium transition-smooth px-4 py-2 rounded-lg hover:bg-smartclean-light/50 hover-lift"
               >
                 Preguntas Frecuentes
+              </Link>
+
+              {/* Mobile Blog */}
+              <Link
+                href="/blog"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-smartclean-secondary hover:text-smartclean-primary font-medium transition-smooth px-4 py-2 rounded-lg hover:bg-smartclean-light/50 hover-lift"
+              >
+                Blog
               </Link>
 
               <Link
                 href="/#contacto"
                 onClick={() => setIsMenuOpen(false)}
-                className="text-mantexia-secondary hover:text-mantexia-primary font-medium transition-smooth px-4 py-2 rounded-lg hover:bg-mantexia-light/50 hover-lift"
+                className="text-smartclean-secondary hover:text-smartclean-primary font-medium transition-smooth px-4 py-2 rounded-lg hover:bg-smartclean-light/50 hover-lift"
               >
                 Contacto
               </Link>
 
-              <div className="px-4 pt-2">
-                <a href="tel:663423034" className="btn-mantexia-primary text-sm py-2 px-6 flex items-center justify-center gap-2 hover-lift">
+              <div className="px-4 pt-2 pb-4">
+                <a href="tel:+34691616465" className="btn-smartclean-primary text-sm py-2 px-6 flex items-center justify-center gap-2 hover-lift">
                   <Phone className="w-4 h-4" />
                   Llamar
                 </a>

@@ -1,16 +1,16 @@
-// Service Worker para Mantexia - Cache estratégico
+// Service Worker para Smart Clean - Cache estratégico
 // Implementación cuidadosa para mejorar performance sin romper funcionalidad
 
-const CACHE_NAME = 'mantexia-v1'
-const STATIC_CACHE = 'mantexia-static-v1'
-const RUNTIME_CACHE = 'mantexia-runtime-v1'
+const CACHE_NAME = 'smartclean-v1'
+const STATIC_CACHE = 'smartclean-static-v1'
+const RUNTIME_CACHE = 'smartclean-runtime-v1'
 
 // URLs críticas para cachear
 const CRITICAL_URLS = [
   '/',
-  '/mano-obra',
-  '/gestion-documental',
-  '/gestora-mantenimientos',
+  '/limpieza-oficinas',
+  '/limpieza-comunidades',
+  '/limpieza-industrial',
   '/sobre-nosotros',
   '/casos-exito',
   '/preguntas-frecuentes'
@@ -21,7 +21,7 @@ const STATIC_RESOURCES = [
   '/favicon.ico',
   '/apple-touch-icon.png',
   '/og-image.png',
-  '/MANTEXIA__solo_nombre_-2-removebg-preview-e1749230794480.png',
+  '/logo.webp',
   '/Nosotros-11.png'
 ]
 
@@ -138,7 +138,7 @@ async function networkFirstStrategy(request) {
         `<!DOCTYPE html>
         <html>
         <head>
-          <title>Mantexia - Sin conexión</title>
+          <title>Smart Clean - Sin conexión</title>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <style>
@@ -233,4 +233,4 @@ self.addEventListener('message', event => {
 })
 
 // Log de inicio
-console.log('🚀 Service Worker de Mantexia cargado correctamente')
+console.log('🚀 Service Worker de Smart Clean cargado correctamente')

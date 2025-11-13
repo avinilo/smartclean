@@ -5,5 +5,5 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   colorScheme: 'light',
-  themeColor: '#ED0B63',
+  themeColor: '#2563eb',
 }

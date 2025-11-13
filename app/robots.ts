@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://mantexia.com/sitemap.xml',
+    sitemap: 'https://limpiezassmartclean.com/sitemap.xml',
   }
 }

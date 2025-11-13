@@ -59,8 +59,8 @@ export default function ContactForm() {
   if (isSuccess) {
     return (
       <div className="text-center py-8">
-        <CheckCircle className="w-16 h-16 text-mantexia-primary mx-auto mb-4" />
-        <h3 className="text-2xl font-bold mb-2 text-mantexia-secondary">¡Gracias por contactar!</h3>
+        <CheckCircle className="w-16 h-16 text-smartclean-primary mx-auto mb-4" />
+        <h3 className="text-2xl font-bold mb-2 text-smartclean-secondary">¡Gracias por contactar!</h3>
         <p className="text-gray-600">En unos minutos le daremos respuesta...</p>
       </div>
     )
@@ -74,14 +74,14 @@ export default function ContactForm() {
       aria-label="Formulario de contacto"
     >
       <div>
-        <label htmlFor="name" className="block text-sm font-medium text-mantexia-secondary mb-1">
+        <label htmlFor="name" className="block text-sm font-medium text-smartclean-secondary mb-1">
           Nombre *
         </label>
         <input
           type="text"
           id="name"
           {...register('name', { required: 'Este campo es obligatorio' })}
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-mantexia-primary focus:border-mantexia-primary transition-colors"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-smartclean-primary focus:border-smartclean-primary transition-colors"
           aria-required="true"
           aria-invalid={errors.name ? 'true' : 'false'}
           aria-describedby={errors.name ? 'name-error' : undefined}
@@ -94,7 +94,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="email" className="block text-sm font-medium text-mantexia-secondary mb-1">
+        <label htmlFor="email" className="block text-sm font-medium text-smartclean-secondary mb-1">
           Correo electrónico *
         </label>
         <input
@@ -107,7 +107,7 @@ export default function ContactForm() {
               message: 'Email inválido',
             },
           })}
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-mantexia-primary focus:border-mantexia-primary transition-colors"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-smartclean-primary focus:border-smartclean-primary transition-colors"
           aria-required="true"
           aria-invalid={errors.email ? 'true' : 'false'}
           aria-describedby={errors.email ? 'email-error' : undefined}
@@ -121,14 +121,14 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="phone" className="block text-sm font-medium text-mantexia-secondary mb-1">
+        <label htmlFor="phone" className="block text-sm font-medium text-smartclean-secondary mb-1">
           Número de teléfono *
         </label>
         <input
           type="tel"
           id="phone"
           {...register('phone', { required: 'Este campo es obligatorio' })}
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-mantexia-primary focus:border-mantexia-primary transition-colors"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-smartclean-primary focus:border-smartclean-primary transition-colors"
           aria-required="true"
           aria-invalid={errors.phone ? 'true' : 'false'}
           aria-describedby={errors.phone ? 'phone-error' : undefined}
@@ -142,14 +142,14 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="company" className="block text-sm font-medium text-mantexia-secondary mb-1">
+        <label htmlFor="company" className="block text-sm font-medium text-smartclean-secondary mb-1">
           Empresa *
         </label>
         <input
           type="text"
           id="company"
           {...register('company', { required: 'Este campo es obligatorio' })}
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-mantexia-primary focus:border-mantexia-primary transition-colors"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-smartclean-primary focus:border-smartclean-primary transition-colors"
           aria-required="true"
           aria-invalid={errors.company ? 'true' : 'false'}
           aria-describedby={errors.company ? 'company-error' : undefined}
@@ -163,21 +163,21 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="service" className="block text-sm font-medium text-mantexia-secondary mb-1">
+        <label htmlFor="service" className="block text-sm font-medium text-smartclean-secondary mb-1">
           Elige un servicio *
         </label>
         <select
           id="service"
           {...register('service', { required: 'Este campo es obligatorio' })}
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-mantexia-primary focus:border-mantexia-primary transition-colors"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-smartclean-primary focus:border-smartclean-primary transition-colors"
           aria-required="true"
           aria-invalid={errors.service ? 'true' : 'false'}
           aria-describedby={errors.service ? 'service-error' : undefined}
         >
           <option value="">— Selecciona la opción —</option>
-          <option value="Mano de Obra">Mano de Obra</option>
-          <option value="Gestora de Mantenimientos">Gestora de Mantenimientos</option>
-          <option value="Gestión Documental">Gestión Documental</option>
+          <option value="Limpieza de Oficinas">Limpieza de Oficinas</option>
+          <option value="Limpieza de Comunidades">Limpieza de Comunidades</option>
+          <option value="Limpieza Industrial">Limpieza Industrial</option>
         </select>
         {errors.service && (
           <p id="service-error" className="text-red-500 text-sm mt-1" role="alert" aria-live="polite">
@@ -187,14 +187,14 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-mantexia-secondary mb-1">
+        <label htmlFor="message" className="block text-sm font-medium text-smartclean-secondary mb-1">
           Mensaje *
         </label>
         <textarea
           id="message"
           rows={4}
           {...register('message', { required: 'Este campo es obligatorio' })}
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-mantexia-primary focus:border-mantexia-primary transition-colors resize-none"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-smartclean-primary focus:border-smartclean-primary transition-colors resize-none"
           aria-required="true"
           aria-invalid={errors.message ? 'true' : 'false'}
           aria-describedby={errors.message ? 'message-error' : undefined}
@@ -219,7 +219,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full btn-mantexia-primary flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+        className="w-full btn-smartclean-primary flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
         aria-describedby={isSubmitting ? 'submit-status' : undefined}
       >
         {isSubmitting ? (

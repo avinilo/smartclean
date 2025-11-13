@@ -5,12 +5,12 @@ export default function PoliticaPrivacidadPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="hero-mantexia overflow-hidden relative -mt-20 pt-20">
-        <div className="absolute inset-0 mantexia-overlay"></div>
+      <section className="hero-smartclean overflow-hidden relative -mt-20 pt-20">
+        <div className="absolute inset-0 smartclean-overlay"></div>
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1920&h=1080&fit=crop&auto=format"
-            alt="Instalaciones industriales modernas"
+            src="https://images.unsplash.com/photo-1581403341630-a6e0b0f5c0c4?w=1920&h=1080&fit=crop&auto=format"
+            alt="Protección de datos - Smart Clean"
             fill
             className="object-cover"
             priority
@@ -24,7 +24,7 @@ export default function PoliticaPrivacidadPage() {
             <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-bounce-in">Política de Privacidad</h1>
             <p className="text-2xl mb-4 animate-fade-in animate-delay-300">Protección y tratamiento de datos personales</p>
             <p className="text-xl text-white/90 animate-slide-up animate-delay-500">
-              En Mantexia respetamos su privacidad y protegemos sus datos personales
+              En Smart Clean respetamos su privacidad y protegemos sus datos personales
             </p>
           </div>
         </div>
@@ -36,13 +36,13 @@ export default function PoliticaPrivacidadPage() {
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg max-w-none">
               
-              <div className="bg-mantexia-light border-l-4 border-mantexia-primary p-6 mb-8 rounded-r-lg animate-scale-in animate-delay-200">
+              <div className="bg-smartclean-light border-l-4 border-smartclean-primary p-6 mb-8 rounded-r-lg animate-scale-in animate-delay-200">
                 <div className="flex items-start gap-3">
-                  <FileText className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <FileText className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold mb-2 text-mantexia-secondary">Información general</h3>
+                    <h3 className="font-semibold mb-2 text-smartclean-secondary">Información general</h3>
                     <p className="text-gray-700">
-                      Esta política de privacidad describe cómo Mantexia recopila, utiliza y protege la información personal que usted nos proporciona a través de nuestro sitio web y servicios.
+                      Esta política de privacidad describe cómo Smart Clean recopila, utiliza y protege la información personal que usted nos proporciona a través de nuestro sitio web y servicios.
                     </p>
                   </div>
                 </div>
@@ -51,21 +51,21 @@ export default function PoliticaPrivacidadPage() {
               <div className="space-y-8">
                 <div className="bg-gray-50 rounded-xl p-6 animate-slide-up animate-delay-400">
                   <div className="flex items-start gap-3 mb-4">
-                    <Users className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
-                    <h2 className="text-2xl font-bold text-mantexia-secondary">Responsable del tratamiento</h2>
+                    <Users className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
+                    <h2 className="text-2xl font-bold text-smartclean-secondary">Responsable del tratamiento</h2>
                   </div>
                   <div className="text-gray-700">
-                    <p className="mb-2"><strong>Empresa:</strong> Mantexia</p>
+                    <p className="mb-2"><strong>Empresa:</strong> Smart Clean</p>
                     <p className="mb-2"><strong>Dirección:</strong> Av. Angelino Soler, 2, bajo 3, 46290 Alcàsser, Valencia</p>
-                    <p className="mb-2"><strong>Email:</strong> mantexia@mantexia.com</p>
+                    <p className="mb-2"><strong>Email:</strong> info@limpiezassmartclean.com</p>
                     <p><strong>Teléfono:</strong> 663 423 034</p>
                   </div>
                 </div>
 
                 <div className="bg-gray-50 rounded-xl p-6 animate-slide-up animate-delay-600">
                   <div className="flex items-start gap-3 mb-4">
-                    <Database className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
-                    <h2 className="text-2xl font-bold text-mantexia-secondary">Datos que recopilamos</h2>
+                    <Database className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
+                    <h2 className="text-2xl font-bold text-smartclean-secondary">Datos que recopilamos</h2>
                   </div>
                   <div className="text-gray-700">
                     <p className="mb-4">Recopilamos los siguientes tipos de información:</p>
@@ -82,14 +82,14 @@ export default function PoliticaPrivacidadPage() {
 
                 <div className="bg-gray-50 rounded-xl p-6 animate-slide-up animate-delay-800">
                   <div className="flex items-start gap-3 mb-4">
-                    <Eye className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
-                    <h2 className="text-2xl font-bold text-mantexia-secondary">Finalidad del tratamiento</h2>
+                    <Eye className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
+                    <h2 className="text-2xl font-bold text-smartclean-secondary">Finalidad del tratamiento</h2>
                   </div>
                   <div className="text-gray-700">
                     <p className="mb-4">Utilizamos sus datos para:</p>
                     <ul className="space-y-2 ml-4">
                       <li>• Responder a sus consultas y solicitudes de información</li>
-                      <li>• Proporcionar nuestros servicios de mantenimiento industrial</li>
+                      <li>• Proporcionar nuestros servicios de limpieza profesional</li>
                       <li>• Gestionar procesos de selección de personal</li>
                       <li>• Enviar información comercial (solo con su consentimiento)</li>
                       <li>• Cumplir con obligaciones legales y contractuales</li>
@@ -102,8 +102,8 @@ export default function PoliticaPrivacidadPage() {
 
                 <div className="bg-gray-50 rounded-xl p-6 animate-slide-up animate-delay-1000">
                   <div className="flex items-start gap-3 mb-4">
-                    <Lock className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
-                    <h2 className="text-2xl font-bold text-mantexia-secondary">Base legal</h2>
+                    <Lock className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
+                    <h2 className="text-2xl font-bold text-smartclean-secondary">Base legal</h2>
                   </div>
                   <div className="text-gray-700">
                     <p className="mb-4">El tratamiento de sus datos se basa en:</p>
@@ -118,8 +118,8 @@ export default function PoliticaPrivacidadPage() {
 
                 <div className="bg-gray-50 rounded-xl p-6 animate-slide-up animate-delay-1200">
                   <div className="flex items-start gap-3 mb-4">
-                    <Shield className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
-                    <h2 className="text-2xl font-bold text-mantexia-secondary">Conservación de datos</h2>
+                    <Shield className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
+                    <h2 className="text-2xl font-bold text-smartclean-secondary">Conservación de datos</h2>
                   </div>
                   <div className="text-gray-700">
                     <p className="mb-4">Conservamos sus datos durante:</p>
@@ -134,8 +134,8 @@ export default function PoliticaPrivacidadPage() {
 
                 <div className="bg-gray-50 rounded-xl p-6 animate-slide-up animate-delay-1400">
                   <div className="flex items-start gap-3 mb-4">
-                    <Users className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
-                    <h2 className="text-2xl font-bold text-mantexia-secondary">Sus derechos</h2>
+                    <Users className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
+                    <h2 className="text-2xl font-bold text-smartclean-secondary">Sus derechos</h2>
                   </div>
                   <div className="text-gray-700">
                     <p className="mb-4">Usted tiene derecho a:</p>
@@ -147,14 +147,14 @@ export default function PoliticaPrivacidadPage() {
                       <li>• <strong>Portabilidad:</strong> Recibir sus datos en formato estructurado</li>
                       <li>• <strong>Oposición:</strong> Oponerse al tratamiento</li>
                     </ul>
-                    <p className="mt-4">Para ejercer estos derechos, contacte con nosotros en: <strong>mantexia@mantexia.com</strong></p>
+                    <p className="mt-4">Para ejercer estos derechos, contacte con nosotros en: <strong>info@limpiezassmartclean.com</strong></p>
                   </div>
                 </div>
 
                 <div className="bg-gray-50 rounded-xl p-6 animate-slide-up animate-delay-1600">
                   <div className="flex items-start gap-3 mb-4">
-                    <Database className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
-                    <h2 className="text-2xl font-bold text-mantexia-secondary">Cookies</h2>
+                    <Database className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
+                    <h2 className="text-2xl font-bold text-smartclean-secondary">Cookies</h2>
                   </div>
                   <div className="text-gray-700">
                     <p className="mb-4">Utilizamos diferentes tipos de cookies:</p>
@@ -170,8 +170,8 @@ export default function PoliticaPrivacidadPage() {
 
                 <div className="bg-gray-50 rounded-xl p-6 animate-slide-up animate-delay-1800">
                   <div className="flex items-start gap-3 mb-4">
-                    <Lock className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
-                    <h2 className="text-2xl font-bold text-mantexia-secondary">Seguridad</h2>
+                    <Lock className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
+                    <h2 className="text-2xl font-bold text-smartclean-secondary">Seguridad</h2>
                   </div>
                   <div className="text-gray-700">
                     <p>Implementamos medidas técnicas y organizativas apropiadas para proteger sus datos personales contra acceso no autorizado, alteración, divulgación o destrucción.</p>
@@ -180,23 +180,23 @@ export default function PoliticaPrivacidadPage() {
 
                 <div className="bg-gray-50 rounded-xl p-6 animate-slide-up animate-delay-2000">
                   <div className="flex items-start gap-3 mb-4">
-                    <FileText className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
-                    <h2 className="text-2xl font-bold text-mantexia-secondary">Modificaciones</h2>
+                    <FileText className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
+                    <h2 className="text-2xl font-bold text-smartclean-secondary">Modificaciones</h2>
                   </div>
                   <div className="text-gray-700">
                     <p>Nos reservamos el derecho a modificar esta política de privacidad. Los cambios serán publicados en esta página con la fecha de actualización correspondiente.</p>
                   </div>
                 </div>
 
-                <div className="bg-mantexia-light border border-mantexia-primary/20 rounded-xl p-6 animate-scale-in animate-delay-2200">
+              <div className="bg-smartclean-light border border-smartclean-primary/20 rounded-xl p-6 animate-scale-in animate-delay-2200">
                   <div className="flex items-start gap-3 mb-4">
-                    <Shield className="w-6 h-6 text-mantexia-primary flex-shrink-0 mt-1" />
-                    <h2 className="text-2xl font-bold text-mantexia-secondary">Contacto</h2>
+                    <Shield className="w-6 h-6 text-smartclean-primary flex-shrink-0 mt-1" />
+                    <h2 className="text-2xl font-bold text-smartclean-secondary">Contacto</h2>
                   </div>
                   <div className="text-gray-700">
                     <p className="mb-4">Para cualquier consulta sobre esta política de privacidad o el tratamiento de sus datos, puede contactarnos:</p>
                     <ul className="space-y-2">
-                      <li><strong>Email:</strong> mantexia@mantexia.com</li>
+                      <li><strong>Email:</strong> info@limpiezassmartclean.com</li>
                       <li><strong>Teléfono:</strong> 663 423 034</li>
                       <li><strong>Dirección:</strong> Av. Angelino Soler, 2, bajo 3, 46290 Alcàsser, Valencia</li>
                     </ul>
@@ -214,3 +214,4 @@ export default function PoliticaPrivacidadPage() {
     </>
   )
 }
+

@@ -24,13 +24,13 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Mantexia - Soluciones Integrales para Obras y Fábricas',
-  description: 'Mano de obra, gestora de mantenimientos y gestión documental para obras y fábricas en Valencia',
-  keywords: 'mantexia, mano de obra, mantenimiento industrial, gestión documental, obras, fábricas, Valencia, Alcàsser',
-  authors: [{ name: 'Mantexia' }],
-  creator: 'Mantexia',
-  publisher: 'Mantexia',
-  applicationName: 'Mantexia',
+  title: 'Smart Clean - Servicios Profesionales de Limpieza Valencia',
+  description: 'Servicios profesionales de limpieza para oficinas, comunidades e instalaciones industriales en Valencia y alrededores',
+  keywords: 'smart clean, limpieza, oficinas, comunidades, limpieza industrial, valencia, benaguasil, servicios de limpieza',
+  authors: [{ name: 'Smart Clean' }],
+  creator: 'Smart Clean',
+  publisher: 'Smart Clean',
+  applicationName: 'Smart Clean',
   referrer: 'origin-when-cross-origin',
 
   formatDetection: {
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://mantexia.com'),
+  metadataBase: new URL('https://limpiezassmartclean.com'),
   alternates: {
     canonical: '/',
   },
@@ -61,16 +61,16 @@ export const metadata: Metadata = {
   category: 'business',
   classification: 'Servicios industriales',
   openGraph: {
-    title: 'Mantexia - Soluciones Integrales para Obras y Fábricas',
-    description: 'Mano de obra, gestora de mantenimientos y gestión documental para obras y fábricas en Valencia',
-    url: 'https://mantexia.com',
-    siteName: 'Mantexia',
+    title: 'Smart Clean - Servicios Profesionales de Limpieza Valencia',
+    description: 'Servicios profesionales de limpieza para oficinas, comunidades e instalaciones industriales en Valencia y alrededores',
+    url: 'https://limpiezassmartclean.com',
+    siteName: 'Smart Clean',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Mantexia - Soluciones Integrales para Obras y Fábricas',
+        alt: 'Smart Clean - Servicios Profesionales de Limpieza Valencia',
       },
     ],
     locale: 'es_ES',
@@ -78,10 +78,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mantexia - Soluciones Integrales para Obras y Fábricas',
-    description: 'Mano de obra, gestora de mantenimientos y gestión documental para obras y fábricas en Valencia',
+    title: 'Smart Clean - Servicios Profesionales de Limpieza Valencia',
+    description: 'Servicios profesionales de limpieza para oficinas, comunidades e instalaciones industriales en Valencia y alrededores',
     images: ['/og-image.png'],
-    creator: '@mantexia',
+    creator: '@smartcleanvlc',
   },
   robots: {
     index: true,
@@ -103,20 +103,13 @@ export const metadata: Metadata = {
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
     ],
     apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
-    ],
-    other: [
-      {
-        rel: 'mask-icon',
-        url: '/safari-pinned-tab.svg',
-        color: '#ED0B63',
-      },
+      { url: '/apple-icon-180x180.png', sizes: '180x180', type: 'image/png' },
     ],
   },
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
-    title: 'Mantexia',
+    title: 'Smart Clean',
     statusBarStyle: 'default',
   },
 }
@@ -144,7 +137,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="anonymous" />
         
         {/* Preload de recursos críticos para Core Web Vitals */}
-        <link rel="preload" href="/MANTEXIA__solo_nombre_-2-removebg-preview-e1749230794480.png" as="image" fetchPriority="high" />
+        <link rel="preload" href="/logo.webp" as="image" fetchPriority="high" />
         <link rel="preload" href="/og-image.png" as="image" fetchPriority="low" />
         
         {/* Resource hints adicionales para optimización */}
@@ -167,12 +160,12 @@ export default function RootLayout({
         
         {/* Meta tags específicos para redes sociales */}
         <meta property="fb:app_id" content={process.env.NEXT_PUBLIC_FACEBOOK_APP_ID || ''} />
-        <meta name="twitter:site" content="@mantexia" />
-        <meta name="twitter:creator" content="@mantexia" />
+        <meta name="twitter:site" content="@smartcleanvlc" />
+        <meta name="twitter:creator" content="@smartcleanvlc" />
         
         {/* Meta tags para LinkedIn */}
-        <meta property="og:site_name" content="Mantexia" />
-        <meta property="article:publisher" content="https://www.linkedin.com/company/mantexia" />
+        <meta property="og:site_name" content="Smart Clean" />
+        <meta property="article:publisher" content="https://www.linkedin.com/company/smart-clean-valencia" />
         
         {/* Meta tags para WhatsApp */}
         <meta property="og:image:type" content="image/png" />
@@ -189,16 +182,34 @@ export default function RootLayout({
         <meta name="geo.placename" content="Valencia, España" />
         <meta name="geo.position" content="39.4699;-0.3763" />
         <meta name="ICBM" content="39.4699, -0.3763" />
-        <meta name="DC.title" content="Mantexia - Servicios Industriales Valencia" />
+        <meta name="DC.title" content="Smart Clean - Servicios de Limpieza Valencia" />
         
         {/* Meta tags adicionales para SEO */}
-        <meta name="theme-color" content="#ED0B63" />
-        <meta name="msapplication-TileColor" content="#ED0B63" />
+        <meta name="theme-color" content="#2563eb" />
+        <meta name="msapplication-TileColor" content="#2563eb" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Mantexia" />
+        <meta name="apple-mobile-web-app-title" content="Smart Clean" />
+        
+        {/* Favicon y Apple Touch Icons */}
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
         
         {/* Viewport optimizado */}
          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />

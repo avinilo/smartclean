@@ -6,11 +6,12 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
-    --mantexia-primary: #ED0B63;
-    --mantexia-secondary: #6B0237;
-    --mantexia-light: #FFE8F1;
-    --gradient-hero: linear-gradient(135deg, #ED0B63 0%, #FFFFFF 100%);
-    --gradient-overlay: linear-gradient(135deg, rgba(237, 11, 99, 0.8) 0%, rgba(255, 255, 255, 0.2) 100%);
+    --smartclean-primary: #2563eb;
+    --smartclean-secondary: #1d4ed8;
+    --smartclean-light: #dbeafe;
+    --smartclean-primary-rgb: 37, 99, 235;
+    --gradient-hero: linear-gradient(135deg, #2563eb 0%, #FFFFFF 100%);
+    --gradient-overlay: linear-gradient(135deg, rgba(37, 99, 235, 0.8) 0%, rgba(255, 255, 255, 0.2) 100%);
     
     /* Animation Variables */
     --animation-duration-fast: 0.2s;
@@ -43,40 +44,40 @@
   }
 
   .btn-primary {
-    @apply bg-mantexia-primary text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 hover:bg-mantexia-secondary;
+    @apply bg-smartclean-primary text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 hover:bg-smartclean-secondary;
   }
 
   .btn-secondary {
-    @apply bg-mantexia-secondary text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 hover:bg-mantexia-primary;
+    @apply bg-smartclean-secondary text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 hover:bg-smartclean-primary;
   }
 
-  .btn-mantexia-primary {
-    @apply bg-mantexia-primary text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 hover:bg-mantexia-secondary;
+  .btn-smartclean-primary {
+    @apply bg-smartclean-primary text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 hover:bg-smartclean-secondary;
   }
 
   .section-padding {
     @apply py-16 md:py-24;
   }
 
-  .section-mantexia {
+  .section-smartclean {
     @apply py-16 md:py-24 relative;
   }
 
   .card-service {
-    @apply bg-white rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8 border border-mantexia-light hover:border-mantexia-primary transform hover:-translate-y-1;
+    @apply bg-white rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8 border border-smartclean-light hover:border-smartclean-primary transform hover:-translate-y-1;
   }
 
-  .card-mantexia {
-    @apply bg-white rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8 border border-mantexia-light hover:border-mantexia-primary transform hover:-translate-y-1;
+  .card-smartclean {
+    @apply bg-white rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8 border border-smartclean-light hover:border-smartclean-primary transform hover:-translate-y-1;
   }
 
-  .hero-mantexia {
-    background: linear-gradient(135deg, #ED0B63 0%, #FFFFFF 100%);
+  .hero-smartclean {
+    background: linear-gradient(135deg, #2563eb 0%, #FFFFFF 100%);
     @apply text-white relative overflow-hidden;
   }
 
-  .mantexia-overlay {
-    background: linear-gradient(135deg, rgba(237, 11, 99, 0.8) 0%, rgba(255, 255, 255, 0.2) 100%);
+  .smartclean-overlay {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.8) 0%, rgba(255, 255, 255, 0.2) 100%);
   }
 
   /* Animation Classes */
@@ -323,7 +324,7 @@
   }
 
   .hover-glow:hover {
-    box-shadow: 0 0 20px rgba(var(--mantexia-primary-rgb), 0.3);
+    box-shadow: 0 0 20px rgba(var(--smartclean-primary-rgb), 0.3);
   }
 
   @keyframes slideInLeft {

@@ -1,5 +1,5 @@
 /**
- * Final Performance Optimizations for Mantexia
+ * Final Performance Optimizations for Smart Clean
  * Utilities for advanced image optimization, lazy loading, and resource preloading
  */
 

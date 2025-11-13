@@ -1,5 +1,5 @@
 /**
- * Utilidades de Accesibilidad para Mantexia
+ * Utilidades de Accesibilidad para Smart Clean
  * Funciones para mejorar la experiencia de usuarios con discapacidades
  */
 

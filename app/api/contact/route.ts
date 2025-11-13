@@ -75,7 +75,7 @@ export async function POST(request: Request) {
       <body>
         <div class="container">
           <div class="header">
-            <h1>Nuevo Contacto desde Mantexia.com</h1>
+            <h1>Nuevo Contacto desde SmartClean.es</h1>
           </div>
           <div class="content">
             <div class="field">
@@ -109,7 +109,7 @@ export async function POST(request: Request) {
             </div>
           </div>
           <div class="footer">
-            <p>Este email fue enviado desde el formulario de contacto de mantexia.com</p>
+            <p>Este email fue enviado desde el formulario de contacto de smartclean.es</p>
           </div>
         </div>
       </body>
@@ -118,8 +118,8 @@ export async function POST(request: Request) {
 
     // Send email
     await transporter.sendMail({
-      from: `"Formulario Web Mantexia" <${process.env.EMAIL_USER}>`,
-      to: process.env.EMAIL_TO || 'mantexia@mantexia.com',
+      from: `"Formulario Web Smart Clean" <${process.env.EMAIL_USER}>`,
+      to: process.env.EMAIL_TO || 'info@limpiezassmartclean.com',
       subject: `Nuevo contacto: ${service} - ${name}`,
       html: emailHtml,
       replyTo: email,

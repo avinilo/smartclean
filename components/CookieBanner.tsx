@@ -21,7 +21,7 @@ export default function CookieBanner() {
 
   useEffect(() => {
     // Check if user has already made a choice
-    const cookieConsent = localStorage.getItem('mantexia-cookie-consent')
+    const cookieConsent = localStorage.getItem('smartclean-cookie-consent')
     if (!cookieConsent) {
       // Show banner after a short delay for better UX
       const timer = setTimeout(() => {
@@ -58,7 +58,7 @@ export default function CookieBanner() {
   }
 
   const savePreferences = (prefs: CookiePreferences) => {
-    localStorage.setItem('mantexia-cookie-consent', JSON.stringify({
+    localStorage.setItem('smartclean-cookie-consent', JSON.stringify({
       preferences: prefs,
       timestamp: new Date().toISOString()
     }))
@@ -94,11 +94,11 @@ export default function CookieBanner() {
             // Main banner
             <div className="flex flex-col lg:flex-row items-start lg:items-center gap-4">
               <div className="flex items-start gap-3 flex-1">
-                <div className="w-10 h-10 bg-mantexia-light rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <Cookie className="w-5 h-5 text-mantexia-primary" />
+                <div className="w-10 h-10 bg-smartclean-light rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <Cookie className="w-5 h-5 text-smartclean-primary" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-mantexia-secondary mb-2">
+                  <h3 className="font-semibold text-smartclean-secondary mb-2">
                     Utilizamos cookies para mejorar su experiencia
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed">
@@ -107,7 +107,7 @@ export default function CookieBanner() {
                     Puede gestionar sus preferencias o consultar más información en nuestra{' '}
                     <Link 
                       href="/politica-privacidad" 
-                      className="text-mantexia-primary hover:text-mantexia-secondary underline"
+                      className="text-smartclean-primary hover:text-smartclean-secondary underline"
                     >
                       política de privacidad
                     </Link>.
@@ -125,13 +125,13 @@ export default function CookieBanner() {
                 </button>
                 <button
                   onClick={handleAcceptNecessary}
-                  className="px-2 xs:px-3 sm:px-4 py-2 text-xs xs:text-sm border border-mantexia-primary text-mantexia-primary rounded-lg hover:bg-mantexia-light transition-colors flex-1 sm:flex-none min-w-0"
+                  className="px-2 xs:px-3 sm:px-4 py-2 text-xs xs:text-sm border border-smartclean-primary text-smartclean-primary rounded-lg hover:bg-smartclean-light transition-colors flex-1 sm:flex-none min-w-0"
                 >
                   <span className="truncate">Solo necesarias</span>
                 </button>
                 <button
                   onClick={handleAcceptAll}
-                  className="px-2 xs:px-3 sm:px-4 py-2 text-xs xs:text-sm bg-mantexia-primary text-white rounded-lg hover:bg-mantexia-secondary transition-colors flex-1 sm:flex-none min-w-0"
+                  className="px-2 xs:px-3 sm:px-4 py-2 text-xs xs:text-sm bg-smartclean-primary text-white rounded-lg hover:bg-smartclean-secondary transition-colors flex-1 sm:flex-none min-w-0"
                 >
                   <span className="truncate">Aceptar todas</span>
                 </button>
@@ -141,7 +141,7 @@ export default function CookieBanner() {
             // Settings panel
             <div className="animate-fade-in">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-lg font-semibold text-mantexia-secondary">
+                <h3 className="text-lg font-semibold text-smartclean-secondary">
                   Configuración de cookies
                 </h3>
                 <button
@@ -155,11 +155,11 @@ export default function CookieBanner() {
               <div className="space-y-4 mb-6">
                 {/* Necessary Cookies */}
                 <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
-                  <Shield className="w-5 h-5 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <Shield className="w-5 h-5 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-2">
-                      <h4 className="font-medium text-mantexia-secondary">Cookies necesarias</h4>
-                      <div className="w-12 h-6 bg-mantexia-primary rounded-full flex items-center justify-end px-1">
+                      <h4 className="font-medium text-smartclean-secondary">Cookies necesarias</h4>
+                      <div className="w-12 h-6 bg-smartclean-primary rounded-full flex items-center justify-end px-1">
                         <div className="w-4 h-4 bg-white rounded-full"></div>
                       </div>
                     </div>
@@ -171,15 +171,15 @@ export default function CookieBanner() {
 
                 {/* Analytics Cookies */}
                 <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
-                  <BarChart3 className="w-5 h-5 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <BarChart3 className="w-5 h-5 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-2">
-                      <h4 className="font-medium text-mantexia-secondary">Cookies analíticas</h4>
+                      <h4 className="font-medium text-smartclean-secondary">Cookies analíticas</h4>
                       <button
                         onClick={() => handlePreferenceChange('analytics')}
                         className={`w-12 h-6 rounded-full flex items-center px-1 transition-colors ${
                           preferences.analytics 
-                            ? 'bg-mantexia-primary justify-end' 
+                            ? 'bg-smartclean-primary justify-end' 
                             : 'bg-gray-300 justify-start'
                         }`}
                       >
@@ -194,15 +194,15 @@ export default function CookieBanner() {
 
                 {/* Tracking Cookies */}
                 <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
-                  <Eye className="w-5 h-5 text-mantexia-primary flex-shrink-0 mt-1" />
+                  <Eye className="w-5 h-5 text-smartclean-primary flex-shrink-0 mt-1" />
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-2">
-                      <h4 className="font-medium text-mantexia-secondary">Cookies de seguimiento</h4>
+                      <h4 className="font-medium text-smartclean-secondary">Cookies de seguimiento</h4>
                       <button
                         onClick={() => handlePreferenceChange('tracking')}
                         className={`w-12 h-6 rounded-full flex items-center px-1 transition-colors ${
                           preferences.tracking 
-                            ? 'bg-mantexia-primary justify-end' 
+                            ? 'bg-smartclean-primary justify-end' 
                             : 'bg-gray-300 justify-start'
                         }`}
                       >
@@ -225,7 +225,7 @@ export default function CookieBanner() {
                 </button>
                 <button
                   onClick={handleSaveSettings}
-                  className="px-4 py-2 text-sm bg-mantexia-primary text-white rounded-lg hover:bg-mantexia-secondary transition-colors"
+                  className="px-4 py-2 text-sm bg-smartclean-primary text-white rounded-lg hover:bg-smartclean-secondary transition-colors"
                 >
                   Guardar preferencias
                 </button>

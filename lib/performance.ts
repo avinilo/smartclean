@@ -1,4 +1,4 @@
-// Performance utilities for Mantexia website
+// Performance utilities for Smart Clean website
 // Utilidades de performance monitoring y optimización
 
 // Tipos para métricas de performance
